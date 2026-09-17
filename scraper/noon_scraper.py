@@ -1,15 +1,15 @@
 """
 Noon.sa scraper.
 
-Noon renders most content via JavaScript, so plain requests+BeautifulSoup
-often returns incomplete HTML. This script tries Noon's internal catalog
-API first (used by their own site, endpoint/params may change over time),
-falling back to nothing if it fails. If this breaks, the fix is usually:
-open noon.sa in a browser, open DevTools > Network > XHR, reload a
-category/search page, and find the JSON endpoint it's actually calling.
+Endpoint and field names below were confirmed by inspecting a real browser
+request (DevTools -> Network) on 2026-09-17, so this should work as-is. If
+Noon changes their API later, re-check via DevTools the same way.
 
-Like Amazon, Noon does not publicly expose real "search volume" — we use
-their trending/best-seller listing order and review counts as a proxy.
+Note: this uses Noon's "curated for you" endpoint (their homepage/category
+recommendation feed), not a literal admin "best sellers" list -- Noon doesn't
+expose one publicly. It's still a solid proxy for "what's popular right now"
+since the feed is driven by aggregate demand signals, not this scraper's
+own (anonymous, no-login) session history.
 """
 
 import time
@@ -22,13 +22,8 @@ HEADERS = {
         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ),
     "Accept": "application/json",
-    "Content-Type": "application/json",
+    "Accept-Language": "en-SA,en;q=0.9,ar;q=0.8",
 }
-
-# Noon's catalog search API (used by noon.sa itself). Query params /
-# response shape may drift — verify with browser DevTools if this stops
-# returning data.
-CATALOG_API = "https://www.noon.com/_svc/catalog/api/v3/sa-en/catalog"
 
 CATEGORIES = ["electronics", "home", "beauty", "grocery", "toys-kids-babies"]
 
@@ -36,42 +31,30 @@ CATEGORIES = ["electronics", "home", "beauty", "grocery", "toys-kids-babies"]
 def scrape_category(category: str):
     products = []
     try:
-        params = {
-            "categoryIdentifier": category,
-            "sort[by]": "popularity",
-            "sort[dir]": "desc",
-            "page_size": 30,
-        }
-        resp = requests.get(CATALOG_API, headers=HEADERS, params=params, timeout=20)
+        url = f"https://www.noon.com/_svc/catalog/api/v3/personalization-products/curated_for_you/{category}"
+        resp = requests.get(url, headers=HEADERS, params={"limit": 50}, timeout=20)
         resp.raise_for_status()
         payload = resp.json()
 
-        hits = payload.get("hits") or payload.get("products") or []
+        hits = payload.get("hits", [])
         for idx, p in enumerate(hits, start=1):
-            # Noon's API sometimes returns a relative "url" field, sometimes a
-            # "url_key"/"sku" you build a link from. Try the likely fields;
-            # verify against a real response and adjust once you see actual data.
-            raw_url = p.get("url") or p.get("product_url")
-            if not raw_url and p.get("url_key"):
-                raw_url = f"/saudi-en/{p['url_key']}/p/"
-            url = None
-            if raw_url:
-                url = raw_url if raw_url.startswith("http") else f"https://www.noon.com{raw_url}"
-
-            # Image field name varies by Noon's API version — check a real
-            # response in data/latest.json and adjust the key below if images
-            # don't show up (common alternatives: 'image_key', 'thumbnail').
-            image = p.get("image") or p.get("image_url")
+            slug = p.get("url")
+            sku = p.get("sku")
+            product_url = (
+                f"https://www.noon.com/saudi-en/{slug}/p/{sku.lower()}/"
+                if slug and sku else None
+            )
+            rating = p.get("product_rating") or {}
 
             products.append({
                 "category": category,
                 "rank": idx,
-                "title": p.get("name") or p.get("title"),
+                "title": p.get("name"),
                 "price": p.get("sale_price") or p.get("price"),
-                "rating": p.get("rating") or p.get("average_rating"),
-                "review_count": p.get("num_reviews") or p.get("review_count"),
-                "url": url,
-                "image": image,
+                "rating": rating.get("value"),
+                "review_count": rating.get("count"),
+                "url": product_url,
+                "image": p.get("image_url"),
                 "source": "noon.sa",
             })
     except Exception as e:
