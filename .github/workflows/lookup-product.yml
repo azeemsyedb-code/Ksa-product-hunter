@@ -1,0 +1,37 @@
+name: Product Lookup (by URL)
+
+on:
+  workflow_dispatch:
+    inputs:
+      product_url:
+        description: "Amazon.sa or Noon.sa product URL"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Look up product
+        run: python lookup_product.py "${{ inputs.product_url }}"
+        working-directory: scraper
+
+      - name: Commit result
+        run: |
+          git config user.name "product-hunter-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/lookups/
+          git diff --staged --quiet || git commit -m "Product lookup: ${{ inputs.product_url }}"
+          git push

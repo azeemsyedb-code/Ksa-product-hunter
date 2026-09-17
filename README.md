@@ -52,20 +52,49 @@ and shows them on a simple dashboard. Runs for free using GitHub Actions
 5. Once it finishes, check `data/latest.json` got created/updated in your
    repo, then open your dashboard URL from step 2.
 
-## Optional: WhatsApp alerts for hot products
+## Optional: Telegram alerts for hot products
 
-Get a free WhatsApp ping whenever a product's trend score crosses 60 (new
-entries or big rank jumps).
+Get a free Telegram message whenever a product's trend score crosses 60
+(new entries or big rank jumps). More reliable than shared WhatsApp bots.
 
-1. Save this number in your phone: **+34 644 51 95 23**
-2. Send it a WhatsApp message: `I allow callmebot to send me messages`
-3. You'll get a reply with your **API key**.
+1. In Telegram, message **@BotFather** → send `/newbot` → follow the
+   prompts (pick any name/username) → it replies with a **bot token**
+   (looks like `123456789:ABCdefGhIJKlmNoPQRstuVwxyz`).
+2. Start a chat with your new bot (search its username, tap Start / send
+   any message) so it's allowed to message you back.
+3. Get your **chat ID**: message **@userinfobot** on Telegram, it replies
+   with your numeric ID.
 4. In your GitHub repo: Settings → Secrets and variables → Actions →
    "New repository secret". Add two secrets:
-   - `CALLMEBOT_PHONE` — your WhatsApp number with country code, e.g. `9665XXXXXXXX`
-   - `CALLMEBOT_APIKEY` — the key CallMeBot sent you
-5. Next scheduled or manual run will send you a WhatsApp message if any
+   - `TELEGRAM_BOT_TOKEN` — the token from step 1
+   - `TELEGRAM_CHAT_ID` — the ID from step 3
+5. Next scheduled or manual run will message you on Telegram if any
    product is trending. No setup = feature silently does nothing (safe to skip).
+
+## New features
+
+- **Product lookup by URL**: Actions tab → "Product Lookup (by URL)" →
+  "Run workflow" → paste any Amazon.sa or Noon.sa product URL → full details
+  (price, rating, specs, images) get saved to `data/lookups/<timestamp>.json`.
+- **Cross-platform price compare**: each run tries to match similar products
+  between Amazon and Noon (by title similarity) and shows which is cheaper —
+  see the "Amazon vs Noon" section on the dashboard. This is a rough
+  heuristic (no shared product IDs exist across sites), so double-check
+  matches before acting on them.
+- **Category hot list**: dashboard now shows the top 3 trending products per
+  category at a glance.
+- **Price history chart**: click any product row on the dashboard to see its
+  price over the last 14 days (once enough daily runs have accumulated).
+- **Search + Watchlist**: search box to filter products, and a star icon to
+  save specific products to a personal watchlist (stored in your browser).
+- **Retry + rotating headers**: both scrapers now retry failed requests
+  with backoff and rotate between a few realistic browser User-Agents, to
+  reduce the chance of being blocked.
+- **Failure alerts**: if a source returns 0 products (structure likely
+  changed), you get a Telegram warning instead of silently missing data.
+- **Weekly Excel export**: every Friday, a `.xlsx` of the week's data is
+  built and sent to you on Telegram (if configured) and saved to
+  `data/exports/`.
 
 ## Project structure
 
@@ -74,14 +103,21 @@ ksa-product-hunter/
 ├── scraper/
 │   ├── amazon_scraper.py   # Amazon.sa best-sellers
 │   ├── noon_scraper.py     # Noon.sa trending/popular
-│   └── main.py             # runs both, computes trend scores, saves data
+│   ├── scrape_utils.py     # shared retry + rotating-header helpers
+│   ├── lookup_product.py   # look up one product by URL
+│   ├── weekly_export.py    # builds the weekly Excel file
+│   └── main.py             # runs both scrapers, trend scores, matching, alerts
 ├── data/
 │   ├── latest.json         # what the dashboard reads
-│   └── snapshots/          # one file per day, kept for history
+│   ├── snapshots/          # one file per day, kept for history + index.json
+│   ├── lookups/            # results from the URL lookup workflow
+│   └── exports/            # weekly Excel files
 ├── dashboard/
 │   └── index.html          # the web dashboard
 ├── .github/workflows/
-│   └── daily-scrape.yml    # the automation — runs main.py every 24h
+│   ├── daily-scrape.yml       # runs main.py on a schedule
+│   ├── lookup-product.yml     # on-demand product lookup by URL
+│   └── weekly-export.yml      # weekly Excel export
 └── requirements.txt
 ```
 

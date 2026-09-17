@@ -20,96 +20,97 @@
     --font-mono: 'SF Mono', 'Consolas', monospace;
   }
   * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--font-body);
-    min-height: 100vh;
-  }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); min-height: 100vh; }
   header {
     padding: 32px clamp(16px, 5vw, 64px) 24px;
     border-bottom: 1px solid var(--line);
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    gap: 16px;
+    display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px;
   }
-  h1 {
-    font-family: var(--font-display);
-    font-size: clamp(28px, 4vw, 42px);
-    font-weight: 500;
-    margin: 0 0 6px;
-    letter-spacing: -0.01em;
-  }
+  h1 { font-family: var(--font-display); font-size: clamp(28px, 4vw, 42px); font-weight: 500; margin: 0 0 6px; letter-spacing: -0.01em; }
   .sub { color: var(--text-dim); font-size: 14.5px; max-width: 60ch; }
-  .meta {
-    text-align: right;
-    font-family: var(--font-mono);
-    font-size: 13px;
-    color: var(--text-dim);
-    line-height: 1.7;
-  }
+  .meta { text-align: right; font-family: var(--font-mono); font-size: 13px; color: var(--text-dim); line-height: 1.7; }
   .meta strong { color: var(--gold); }
   main { padding: 28px clamp(16px, 5vw, 64px) 64px; }
-  .controls {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-bottom: 36px;
   }
-  .controls button {
+  .stat-card {
     background: var(--surface);
     border: 1px solid var(--line);
-    color: var(--text-dim);
-    padding: 8px 16px;
-    border-radius: 3px;
-    font-size: 13.5px;
-    cursor: pointer;
-    font-family: var(--font-body);
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: transform 0.15s ease, border-color 0.15s ease;
   }
-  .controls button.active {
-    border-color: var(--gold);
+  .stat-card:hover { transform: translateY(-2px); border-color: var(--gold); }
+  .stat-icon {
+    width: 38px; height: 38px;
+    border-radius: 8px;
+    background: rgba(212,160,60,0.15);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .stat-num { font-family: var(--font-mono); font-size: 20px; font-weight: 700; color: var(--text); line-height: 1.2; }
+  .stat-label { font-size: 11.5px; color: var(--text-dim); margin-top: 2px; }
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 19px;
+    margin: 36px 0 14px;
     color: var(--gold);
-    background: var(--surface-hi);
   }
+  .section-title:first-child { margin-top: 0; }
+
+  .hotlist-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+  .hotlist-card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; transition: border-color 0.15s ease; }
+  .hotlist-card:hover { border-color: var(--gold); }
+  .hotlist-card .cat { font-family: var(--font-mono); font-size: 11px; color: var(--text-dim); margin-bottom: 8px; }
+  .hotlist-card ol { margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.6; }
+  .hotlist-card a { color: var(--text); text-decoration: none; }
+  .hotlist-card a:hover { color: var(--gold); }
+
+  .match-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; border-bottom: 1px solid var(--line); font-size: 13.5px; gap: 12px; }
+  .match-row .titles { flex: 1; min-width: 0; }
+  .match-row .titles div { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .match-price { font-family: var(--font-mono); white-space: nowrap; }
+  .match-price .cheap { color: var(--teal); font-weight: 700; }
+
+  .controls { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; align-items: center; }
+  .controls button {
+    background: var(--surface); border: 1px solid var(--line); color: var(--text-dim);
+    padding: 8px 16px; border-radius: 20px; font-size: 13.5px; cursor: pointer; font-family: var(--font-body);
+    transition: all 0.15s ease;
+  }
+  .controls button:hover { border-color: var(--gold); color: var(--text); }
+  .controls button.active { border-color: var(--gold); color: var(--gold); background: var(--surface-hi); }
+  .controls input[type="text"] {
+    background: var(--surface); border: 1px solid var(--line); color: var(--text);
+    padding: 8px 14px; border-radius: 20px; font-size: 13.5px; font-family: var(--font-body);
+    min-width: 200px;
+  }
+  .controls input[type="text"]::placeholder { color: var(--text-dim); }
+
   table { width: 100%; border-collapse: collapse; }
-  thead th {
-    text-align: left;
-    font-size: 12px;
-    color: var(--text-dim);
-    font-weight: 500;
-    padding: 10px 14px;
-    border-bottom: 1px solid var(--line);
-  }
+  thead th { text-align: left; font-size: 12px; color: var(--text-dim); font-weight: 500; padding: 10px 14px; border-bottom: 1px solid var(--line); }
   thead th.num, td.num { text-align: right; }
-  tbody tr { border-bottom: 1px solid var(--line); }
+  tbody tr { border-bottom: 1px solid var(--line); transition: background 0.12s ease; }
   tbody tr:hover { background: var(--surface); }
   td { padding: 13px 14px; font-size: 14.5px; vertical-align: top; }
-  td.title { max-width: 420px; }
+  td.title { max-width: 420px; cursor: pointer; }
   td.title a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
   td.title a:hover { color: var(--gold); border-bottom-color: var(--gold); }
-  .thumb {
-    width: 40px; height: 40px;
-    object-fit: cover;
-    border-radius: 3px;
-    border: 1px solid var(--line);
-    vertical-align: middle;
-    margin-right: 10px;
-    background: var(--surface-hi);
-  }
+  .thumb { width: 42px; height: 42px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); vertical-align: middle; margin-right: 10px; background: var(--surface-hi); }
   .title-cell { display: flex; align-items: center; }
-  .src-badge {
-    display: inline-block;
-    font-family: var(--font-mono);
-    font-size: 10.5px;
-    padding: 2px 6px;
-    border-radius: 2px;
-    margin-right: 8px;
-    color: var(--bg);
-    font-weight: 700;
-  }
+  .star { cursor: pointer; margin-right: 10px; color: var(--text-dim); font-size: 16px; user-select: none; }
+  .star.active { color: var(--gold); }
+  .src-badge { display: inline-block; font-family: var(--font-mono); font-size: 10.5px; padding: 2px 6px; border-radius: 2px; margin-right: 8px; color: var(--bg); font-weight: 700; }
   .src-amazon { background: var(--gold); }
   .src-noon { background: var(--teal); }
   td.num { font-family: var(--font-mono); color: var(--text-dim); }
@@ -118,32 +119,120 @@
   .trend.new { color: var(--gold); }
   .trend.flat { color: var(--text-dim); }
   .trend.down { color: var(--red); }
-  .empty {
-    text-align: center;
-    padding: 80px 20px;
-    color: var(--text-dim);
-    font-family: var(--font-mono);
-    font-size: 14px;
-    line-height: 1.8;
-  }
+  .empty { text-align: center; padding: 80px 20px; color: var(--text-dim); font-family: var(--font-mono); font-size: 14px; line-height: 1.8; }
   .empty strong { color: var(--gold); display: block; margin-bottom: 8px; font-family: var(--font-body); font-size: 17px; }
+
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 10; align-items: center; justify-content: center; }
+  .modal-overlay.open { display: flex; }
+  .modal { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 24px; width: min(560px, 90vw); max-height: 80vh; overflow-y: auto; }
+  .modal h3 { margin: 0 0 4px; font-family: var(--font-display); font-weight: 500; }
+  .modal .modal-sub { color: var(--text-dim); font-size: 13px; margin-bottom: 16px; }
+  .modal .close-btn { float: right; cursor: pointer; color: var(--text-dim); font-size: 20px; }
+  .modal canvas { max-width: 100%; }
+  .no-history { color: var(--text-dim); font-size: 13.5px; font-family: var(--font-mono); }
 </style>
 </head>
 <body>
 
+<div id="lockOverlay" style="position:fixed; inset:0; background:var(--bg); z-index:100; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:16px;">
+  <div style="font-size:32px;">🔒</div>
+  <div style="font-family: var(--font-display); font-size:22px; color: var(--text);">Souq Signal</div>
+  <input type="password" id="lockInput" placeholder="Enter password" style="background: var(--surface); border: 1px solid var(--line); color: var(--text); padding: 10px 16px; border-radius: 20px; font-size: 14px; width: 240px; text-align:center;">
+  <div id="lockError" style="color: var(--red); font-size: 13px; height: 16px;"></div>
+</div>
+
+<div id="pageContent" style="display:none;">
+
+<script>
+const CORRECT_HASH = "c4c1d7494489e0130b012f074eadadf0629fd2f76ecc207905582fd349cdb11d";
+
+async function sha256(text) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function tryUnlock(pw) {
+  const hash = await sha256(pw);
+  if (hash === CORRECT_HASH) {
+    localStorage.setItem('souq-unlocked', 'true');
+    document.getElementById('lockOverlay').style.display = 'none';
+    document.getElementById('pageContent').style.display = 'block';
+  } else {
+    document.getElementById('lockError').textContent = 'Incorrect password';
+  }
+}
+
+if (localStorage.getItem('souq-unlocked') === 'true') {
+  document.getElementById('lockOverlay').style.display = 'none';
+  document.getElementById('pageContent').style.display = 'block';
+} else {
+  document.getElementById('lockInput').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') tryUnlock(e.target.value);
+  });
+  document.getElementById('lockInput').focus();
+}
+</script>
+
 <header>
   <div>
-    <h1>Souq Signal</h1>
-    <div class="sub">Daily trending products across Amazon.sa and Noon.sa — ranked by movement, not guesswork.</div>
+    <h1>🧭 Souq Signal</h1>
+    <div class="sub">Daily trending products across Amazon.sa and Noon.sa — ranked by movement, not guesswork. <a href="./weekly.html" style="color: var(--gold); text-decoration: none; font-family: var(--font-mono); font-size: 13.5px;">🏆 Weekly Bestsellers →</a> · <a href="./health.html" style="color: var(--gold); text-decoration: none; font-family: var(--font-mono); font-size: 13.5px;">🩺 Health →</a></div>
   </div>
-  <div class="meta" id="metaBox">Loading…</div>
+  <div class="meta">
+    <div id="liveClock" style="color: var(--gold); font-size: 15px; margin-bottom: 4px;">--:--:--</div>
+    <div id="metaBox">Loading…</div>
+  </div>
 </header>
 
 <main>
+  <div class="stat-grid" id="statGrid" style="display:none;">
+    <div class="stat-card">
+      <div class="stat-icon">📦</div>
+      <div><div class="stat-num" id="statTotal">—</div><div class="stat-label">Total products</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon" style="background: rgba(212,160,60,0.15);">🛒</div>
+      <div><div class="stat-num" id="statAmazon">—</div><div class="stat-label">Amazon.sa</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon" style="background: rgba(79,189,178,0.15);">🌙</div>
+      <div><div class="stat-num" id="statNoon">—</div><div class="stat-label">Noon.sa</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon" style="background: rgba(79,189,178,0.15);">🏷️</div>
+      <div><div class="stat-num" id="statBranded">—</div><div class="stat-label">Branded</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">📄</div>
+      <div><div class="stat-num" id="statNonBranded">—</div><div class="stat-label">Non-branded</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon" style="background: rgba(198,86,74,0.18);">🔥</div>
+      <div><div class="stat-num" id="statHot">—</div><div class="stat-label">Trending now</div></div>
+    </div>
+  </div>
+
+  <div id="hotlistSection" style="display:none;">
+    <div class="section-title">🔥 Trending by category</div>
+    <div class="hotlist-grid" id="hotlistGrid"></div>
+  </div>
+
+  <div id="matchSection" style="display:none;">
+    <div class="section-title">💰 Amazon vs Noon — same product, different price</div>
+    <div id="matchList" style="background: var(--surface); border: 1px solid var(--line); border-radius: 4px; overflow: hidden;"></div>
+  </div>
+
+  <div class="section-title">🗂️ All products</div>
   <div class="controls" id="filterBar">
-    <button data-src="all" class="active">All sources</button>
-    <button data-src="amazon.sa">Amazon.sa</button>
-    <button data-src="noon.sa">Noon.sa</button>
+    <button data-src="all" class="active">🌐 All sources</button>
+    <button data-src="amazon.sa">🛒 Amazon.sa</button>
+    <button data-src="noon.sa">🌙 Noon.sa</button>
+    <span style="width:1px; background:var(--line); align-self:stretch;"></span>
+    <button data-type="all" class="active">All types</button>
+    <button data-type="branded">🏷️ Branded</button>
+    <button data-type="non-branded">📄 Non-branded</button>
+    <button data-watch="1" id="watchlistBtn">☆ Watchlist</button>
+    <input type="text" id="searchBox" placeholder="🔍 Search products…">
     <button id="exportBtn" style="margin-left:auto;">⬇ Export CSV</button>
   </div>
 
@@ -169,9 +258,39 @@
   </div>
 </main>
 
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <span class="close-btn" id="modalClose">&times;</span>
+    <h3 id="modalTitle">Product</h3>
+    <div class="modal-sub" id="modalSub"></div>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
 <script>
 let allProducts = [];
 let currentFilter = 'all';
+let currentTypeFilter = 'all';
+let showWatchlistOnly = false;
+let searchTerm = '';
+
+function getWatchlist() {
+  try { return JSON.parse(localStorage.getItem('souq-watchlist') || '[]'); }
+  catch { return []; }
+}
+function setWatchlist(list) {
+  localStorage.setItem('souq-watchlist', JSON.stringify(list));
+}
+function productId(p) { return `${p.source}::${p.title}`; }
+function toggleWatch(p) {
+  const list = getWatchlist();
+  const id = productId(p);
+  const idx = list.indexOf(id);
+  if (idx === -1) list.push(id); else list.splice(idx, 1);
+  setWatchlist(list);
+  render();
+}
 
 function fmtTrend(p) {
   const t = p.trend || 'flat';
@@ -180,19 +299,24 @@ function fmtTrend(p) {
 }
 
 function render() {
+  const watchlist = getWatchlist();
   const tbody = document.getElementById('tbody');
-  const rows = allProducts
-    .filter(p => currentFilter === 'all' || p.source === currentFilter)
-    .sort((a, b) => (b.trend_score || 0) - (a.trend_score || 0));
+  let rows = allProducts.filter(p => currentFilter === 'all' || p.source === currentFilter);
+  if (currentTypeFilter !== 'all') rows = rows.filter(p => p.product_type === currentTypeFilter);
+  if (showWatchlistOnly) rows = rows.filter(p => watchlist.includes(productId(p)));
+  if (searchTerm) rows = rows.filter(p => (p.title || '').toLowerCase().includes(searchTerm));
+  rows.sort((a, b) => (b.trend_score || 0) - (a.trend_score || 0));
 
-  tbody.innerHTML = rows.map(p => `
+  tbody.innerHTML = rows.map((p, i) => `
     <tr>
       <td class="num">${p.rank ?? '—'}</td>
-      <td class="title">
+      <td class="title" data-idx="${i}">
         <div class="title-cell">
+          <span class="star ${watchlist.includes(productId(p)) ? 'active' : ''}" data-star-idx="${i}">${watchlist.includes(productId(p)) ? '★' : '☆'}</span>
           ${p.image ? `<img class="thumb" src="${p.image}" loading="lazy" onerror="this.style.display='none'">` : ''}
           <span>
             <span class="src-badge ${p.source === 'amazon.sa' ? 'src-amazon' : 'src-noon'}">${p.source === 'amazon.sa' ? 'AMZ' : 'NOON'}</span>
+            <span class="src-badge" style="background: ${p.product_type === 'branded' ? 'var(--teal)' : 'var(--text-dim)'};">${p.product_type === 'branded' ? 'BRANDED' : 'NON-BRAND'}</span>
             ${p.url
               ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer">${p.title || 'Untitled product'}</a>`
               : (p.title || 'Untitled product')}
@@ -206,25 +330,88 @@ function render() {
       <td class="num">${fmtTrend(p)}</td>
     </tr>
   `).join('');
+
+  // Wire up star clicks
+  tbody.querySelectorAll('[data-star-idx]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleWatch(rows[parseInt(el.dataset.starIdx)]);
+    });
+  });
+  // Wire up row click -> price history modal
+  tbody.querySelectorAll('td.title').forEach(el => {
+    el.addEventListener('click', () => openHistoryModal(rows[parseInt(el.dataset.idx)]));
+  });
+}
+
+function renderHotlist(hotList) {
+  if (!hotList || Object.keys(hotList).length === 0) return;
+  const grid = document.getElementById('hotlistGrid');
+  grid.innerHTML = Object.entries(hotList).map(([cat, items]) => `
+    <div class="hotlist-card">
+      <div class="cat">${cat}</div>
+      <ol>
+        ${items.map(p => `<li>${p.url ? `<a href="${p.url}" target="_blank">${(p.title || '').slice(0, 50)}</a>` : (p.title || '').slice(0, 50)}</li>`).join('')}
+      </ol>
+    </div>
+  `).join('');
+  document.getElementById('hotlistSection').style.display = 'block';
+}
+
+function renderMatches(matches) {
+  if (!matches || matches.length === 0) return;
+  const list = document.getElementById('matchList');
+  list.innerHTML = matches.slice(0, 15).map(m => `
+    <div class="match-row">
+      <div class="titles">
+        <div><span class="src-badge src-amazon">AMZ</span>${m.amazon_title}</div>
+        <div><span class="src-badge src-noon">NOON</span>${m.noon_title}</div>
+      </div>
+      <div class="match-price">
+        ${m.cheaper_on === 'amazon.sa'
+          ? `<span class="cheap">AMZ ${m.amazon_price}</span> vs Noon ${m.noon_price}`
+          : `AMZ ${m.amazon_price} vs <span class="cheap">Noon ${m.noon_price}</span>`}
+      </div>
+    </div>
+  `).join('');
+  document.getElementById('matchSection').style.display = 'block';
 }
 
 document.getElementById('filterBar').addEventListener('click', (e) => {
-  if (e.target.tagName !== 'BUTTON') return;
   if (e.target.id === 'exportBtn') return;
+  if (e.target.id === 'watchlistBtn') {
+    showWatchlistOnly = !showWatchlistOnly;
+    e.target.classList.toggle('active', showWatchlistOnly);
+    e.target.textContent = showWatchlistOnly ? '★ Watchlist' : '☆ Watchlist';
+    render();
+    return;
+  }
+  if (e.target.dataset.type) {
+    document.querySelectorAll('#filterBar button[data-type]').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    currentTypeFilter = e.target.dataset.type;
+    render();
+    return;
+  }
+  if (e.target.tagName !== 'BUTTON' || !e.target.dataset.src) return;
   document.querySelectorAll('#filterBar button[data-src]').forEach(b => b.classList.remove('active'));
   e.target.classList.add('active');
   currentFilter = e.target.dataset.src;
   render();
 });
 
+document.getElementById('searchBox').addEventListener('input', (e) => {
+  searchTerm = e.target.value.toLowerCase();
+  render();
+});
+
 function exportCSV() {
   const rows = allProducts.filter(p => currentFilter === 'all' || p.source === currentFilter);
-  const headers = ['Source', 'Rank', 'Title', 'Category', 'Price', 'Rating', 'Reviews', 'Trend', 'URL'];
+  const headers = ['Source', 'Rank', 'Title', 'Brand', 'Type', 'Category', 'Price', 'Rating', 'Reviews', 'Trend', 'URL'];
   const csvRows = [headers.join(',')];
   rows.forEach(p => {
-    const line = [
-      p.source, p.rank, p.title, p.category, p.price, p.rating, p.review_count, p.trend, p.url
-    ].map(v => `"${(v ?? '').toString().replace(/"/g, '""')}"`).join(',');
+    const line = [p.source, p.rank, p.title, p.brand, p.product_type, p.category, p.price, p.rating, p.review_count, p.trend, p.url]
+      .map(v => `"${(v ?? '').toString().replace(/"/g, '""')}"`).join(',');
     csvRows.push(line);
   });
   const blob = new Blob([csvRows.join('\n')], { type: 'text/csv;charset=utf-8;' });
@@ -233,8 +420,83 @@ function exportCSV() {
   link.download = `souq-signal-${new Date().toISOString().slice(0,10)}.csv`;
   link.click();
 }
-
 document.getElementById('exportBtn').addEventListener('click', exportCSV);
+
+// ---- Price history modal ----
+let historyChart = null;
+async function openHistoryModal(p) {
+  document.getElementById('modalTitle').textContent = (p.title || 'Product').slice(0, 70);
+  document.getElementById('modalSub').textContent = `${p.source} · ${p.category || ''}`;
+  const body = document.getElementById('modalBody');
+  body.innerHTML = '<div class="no-history">Loading history…</div>';
+  document.getElementById('modalOverlay').classList.add('open');
+
+  try {
+    const idxRes = await fetch('../data/snapshots/index.json');
+    if (!idxRes.ok) throw new Error('no index');
+    let dates = await idxRes.json();
+    dates = dates.slice(-14); // last 14 snapshots max
+
+    const points = [];
+    for (const date of dates) {
+      try {
+        const snapRes = await fetch(`../data/snapshots/${date}.json`);
+        if (!snapRes.ok) continue;
+        const snap = await snapRes.json();
+        const match = (snap.products || []).find(x => x.source === p.source && x.title === p.title);
+        if (match) {
+          const priceNum = parseFloat((match.price || '').toString().replace(/[^\d.]/g, ''));
+          if (!isNaN(priceNum)) points.push({ x: date, y: priceNum });
+        }
+      } catch {}
+    }
+
+    if (points.length < 2) {
+      body.innerHTML = '<div class="no-history">Not enough history yet for a chart — check back after a few more daily runs.</div>';
+      return;
+    }
+
+    body.innerHTML = '<canvas id="historyCanvas" height="200"></canvas>';
+    const ctx = document.getElementById('historyCanvas').getContext('2d');
+    if (historyChart) historyChart.destroy();
+    historyChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: points.map(pt => pt.x),
+        datasets: [{ label: 'Price', data: points.map(pt => pt.y), borderColor: '#D4A03C', backgroundColor: 'rgba(212,160,60,0.15)', tension: 0.2, fill: true }]
+      },
+      options: {
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#93A6A3' }, grid: { color: '#26403F' } },
+          y: { ticks: { color: '#93A6A3' }, grid: { color: '#26403F' } }
+        }
+      }
+    });
+  } catch (e) {
+    body.innerHTML = '<div class="no-history">No history available yet.</div>';
+  }
+}
+document.getElementById('modalClose').addEventListener('click', () => {
+  document.getElementById('modalOverlay').classList.remove('open');
+});
+document.getElementById('modalOverlay').addEventListener('click', (e) => {
+  if (e.target.id === 'modalOverlay') e.target.classList.remove('open');
+});
+
+function updateClock() {
+  const now = new Date();
+  const parts = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Asia/Riyadh',
+    weekday: 'short', day: '2-digit', month: 'short',
+    hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false,
+  }).formatToParts(now);
+  const get = (t) => parts.find(p => p.type === t)?.value || '';
+  document.getElementById('liveClock').textContent =
+    `${get('weekday')} ${get('day')} ${get('month')} · ${get('hour')}:${get('minute')}:${get('second')} KSA`;
+}
+updateClock();
+setInterval(updateClock, 1000);
 
 fetch('../data/latest.json')
   .then(r => { if (!r.ok) throw new Error('no data'); return r.json(); })
@@ -242,9 +504,21 @@ fetch('../data/latest.json')
     allProducts = data.products || [];
     if (allProducts.length === 0) throw new Error('empty');
     document.getElementById('metaBox').innerHTML =
-      `Last updated: <strong>${data.date}</strong><br>${data.total_products} products tracked`;
+      `Last updated: <strong>${data.date}</strong>`;
+
+    const hotCount = allProducts.filter(p => (p.trend_score || 0) >= 60).length;
+    document.getElementById('statTotal').textContent = data.total_products ?? '—';
+    document.getElementById('statAmazon').textContent = data.amazon_count ?? '—';
+    document.getElementById('statNoon').textContent = data.noon_count ?? '—';
+    document.getElementById('statBranded').textContent = data.branded_count ?? '—';
+    document.getElementById('statNonBranded').textContent = data.non_branded_count ?? '—';
+    document.getElementById('statHot').textContent = hotCount;
+    document.getElementById('statGrid').style.display = 'grid';
+
     document.getElementById('productTable').style.display = 'table';
     document.getElementById('emptyState').style.display = 'none';
+    renderHotlist(data.category_hot_list);
+    renderMatches(data.price_matches);
     render();
   })
   .catch(() => {
@@ -252,5 +526,6 @@ fetch('../data/latest.json')
   });
 </script>
 
+</div>
 </body>
 </html>

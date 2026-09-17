@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Bestsellers — Souq Signal</title>
+<style>
+  :root {
+    --bg: #0F1B1C;
+    --surface: #16292A;
+    --surface-hi: #1D3233;
+    --line: #26403F;
+    --gold: #D4A03C;
+    --teal: #4FBDB2;
+    --text: #EDEBE3;
+    --text-dim: #93A6A3;
+    --font-display: 'Iowan Old Style', 'Georgia', serif;
+    --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono: 'SF Mono', 'Consolas', monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); min-height: 100vh; }
+  header {
+    padding: 32px clamp(16px, 5vw, 64px) 24px;
+    border-bottom: 1px solid var(--line);
+    display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 16px;
+  }
+  h1 { font-family: var(--font-display); font-size: clamp(28px, 4vw, 42px); font-weight: 500; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .sub { color: var(--text-dim); font-size: 14.5px; max-width: 60ch; }
+  .nav-link { color: var(--gold); text-decoration: none; font-size: 13.5px; font-family: var(--font-mono); }
+  .nav-link:hover { text-decoration: underline; }
+  .meta { text-align: right; font-family: var(--font-mono); font-size: 13px; color: var(--text-dim); line-height: 1.7; }
+  .meta strong { color: var(--gold); }
+  main { padding: 28px clamp(16px, 5vw, 64px) 64px; }
+
+  .controls { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; align-items: center; }
+  .controls button {
+    background: var(--surface); border: 1px solid var(--line); color: var(--text-dim);
+    padding: 8px 16px; border-radius: 20px; font-size: 13.5px; cursor: pointer; font-family: var(--font-body);
+    transition: all 0.15s ease;
+  }
+  .controls button:hover { border-color: var(--gold); color: var(--text); }
+  .controls button.active { border-color: var(--gold); color: var(--gold); background: var(--surface-hi); }
+
+  table { width: 100%; border-collapse: collapse; }
+  thead th { text-align: left; font-size: 12px; color: var(--text-dim); font-weight: 500; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+  thead th.num, td.num { text-align: right; }
+  tbody tr { border-bottom: 1px solid var(--line); transition: background 0.12s ease; }
+  tbody tr:hover { background: var(--surface); }
+  td { padding: 13px 14px; font-size: 14.5px; vertical-align: top; }
+  td.title { max-width: 420px; }
+  td.title a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
+  td.title a:hover { color: var(--gold); border-bottom-color: var(--gold); }
+  .thumb { width: 42px; height: 42px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); vertical-align: middle; margin-right: 10px; background: var(--surface-hi); }
+  .title-cell { display: flex; align-items: center; }
+  .src-badge { display: inline-block; font-family: var(--font-mono); font-size: 10.5px; padding: 2px 6px; border-radius: 2px; margin-right: 8px; color: var(--bg); font-weight: 700; }
+  .src-amazon { background: var(--gold); }
+  .src-noon { background: var(--teal); }
+  td.num { font-family: var(--font-mono); color: var(--text-dim); }
+  .streak { font-family: var(--font-mono); font-weight: 700; color: var(--gold); }
+  .empty { text-align: center; padding: 80px 20px; color: var(--text-dim); font-family: var(--font-mono); font-size: 14px; line-height: 1.8; }
+  .empty strong { color: var(--gold); display: block; margin-bottom: 8px; font-family: var(--font-body); font-size: 17px; }
+</style>
+</head>
+<body>
+
+<div id="lockOverlay" style="position:fixed; inset:0; background:var(--bg); z-index:100; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:16px;">
+  <div style="font-size:32px;">🔒</div>
+  <div style="font-family: var(--font-display); font-size:22px; color: var(--text);">Souq Signal</div>
+  <input type="password" id="lockInput" placeholder="Enter password" style="background: var(--surface); border: 1px solid var(--line); color: var(--text); padding: 10px 16px; border-radius: 20px; font-size: 14px; width: 240px; text-align:center;">
+  <div id="lockError" style="color: var(--red); font-size: 13px; height: 16px;"></div>
+</div>
+
+<div id="pageContent" style="display:none;">
+
+<script>
+const CORRECT_HASH = "c4c1d7494489e0130b012f074eadadf0629fd2f76ecc207905582fd349cdb11d";
+
+async function sha256(text) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function tryUnlock(pw) {
+  const hash = await sha256(pw);
+  if (hash === CORRECT_HASH) {
+    localStorage.setItem('souq-unlocked', 'true');
+    document.getElementById('lockOverlay').style.display = 'none';
+    document.getElementById('pageContent').style.display = 'block';
+  } else {
+    document.getElementById('lockError').textContent = 'Incorrect password';
+  }
+}
+
+if (localStorage.getItem('souq-unlocked') === 'true') {
+  document.getElementById('lockOverlay').style.display = 'none';
+  document.getElementById('pageContent').style.display = 'block';
+} else {
+  document.getElementById('lockInput').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') tryUnlock(e.target.value);
+  });
+  document.getElementById('lockInput').focus();
+}
+</script>
+
+
+<header>
+  <div>
+    <h1>🏆 Weekly Bestsellers</h1>
+    <div class="sub">Products that stayed on the trending list across multiple days — not just today's snapshot. <a class="nav-link" href="./">← Back to daily view</a></div>
+  </div>
+  <div class="meta">
+    <div id="liveClock" style="color: var(--gold); font-size: 15px; margin-bottom: 4px;">--:--:--</div>
+    <div id="metaBox">Loading…</div>
+  </div>
+</header>
+
+<main>
+  <div class="controls" id="filterBar">
+    <button data-src="all" class="active">🌐 All sources</button>
+    <button data-src="amazon.sa">🛒 Amazon.sa</button>
+    <button data-src="noon.sa">🌙 Noon.sa</button>
+    <button data-type="all" class="active" data-group="type">All types</button>
+    <button data-type="branded" data-group="type">🏷️ Branded</button>
+    <button data-type="non-branded" data-group="type">📄 Non-branded</button>
+  </div>
+
+  <table id="productTable" style="display:none;">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Category</th>
+        <th class="num">Days seen</th>
+        <th class="num">Avg rank</th>
+        <th class="num">Latest price</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <div class="empty" id="emptyState">
+    <strong>Not enough history yet</strong>
+    This page fills in once the daily scraper has run for a few days —<br>
+    it needs at least 2-3 days of snapshots to find consistent bestsellers.
+  </div>
+</main>
+
+<script>
+let allProducts = [];
+let currentFilter = 'all';
+let currentTypeFilter = 'all';
+
+function render() {
+  const tbody = document.getElementById('tbody');
+  let rows = allProducts.filter(p => currentFilter === 'all' || p.source === currentFilter);
+  if (currentTypeFilter !== 'all') rows = rows.filter(p => p.product_type === currentTypeFilter);
+  rows.sort((a, b) => b.days_seen - a.days_seen);
+
+  tbody.innerHTML = rows.map(p => `
+    <tr>
+      <td class="title">
+        <div class="title-cell">
+          ${p.image ? `<img class="thumb" src="${p.image}" loading="lazy" onerror="this.style.display='none'">` : ''}
+          <span>
+            <span class="src-badge ${p.source === 'amazon.sa' ? 'src-amazon' : 'src-noon'}">${p.source === 'amazon.sa' ? 'AMZ' : 'NOON'}</span>
+            <span class="src-badge" style="background: ${p.product_type === 'branded' ? 'var(--teal)' : 'var(--text-dim)'};">${p.product_type === 'branded' ? 'BRANDED' : 'NON-BRAND'}</span>
+            ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer">${p.title || 'Untitled product'}</a>` : (p.title || 'Untitled product')}
+          </span>
+        </div>
+      </td>
+      <td>${p.category || '—'}</td>
+      <td class="num"><span class="streak">${p.days_seen}/${p.days_tracked}</span></td>
+      <td class="num">${p.avg_rank ?? '—'}</td>
+      <td class="num">${p.latest_price ?? '—'}</td>
+    </tr>
+  `).join('');
+}
+
+document.getElementById('filterBar').addEventListener('click', (e) => {
+  if (e.target.tagName !== 'BUTTON') return;
+  if (e.target.dataset.group === 'type') {
+    document.querySelectorAll('#filterBar button[data-group="type"]').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    currentTypeFilter = e.target.dataset.type;
+    render();
+    return;
+  }
+  if (e.target.dataset.src) {
+    document.querySelectorAll('#filterBar button[data-src]').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+    currentFilter = e.target.dataset.src;
+    render();
+  }
+});
+
+function updateClock() {
+  const now = new Date();
+  const parts = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Asia/Riyadh',
+    weekday: 'short', day: '2-digit', month: 'short',
+    hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false,
+  }).formatToParts(now);
+  const get = (t) => parts.find(p => p.type === t)?.value || '';
+  document.getElementById('liveClock').textContent =
+    `${get('weekday')} ${get('day')} ${get('month')} · ${get('hour')}:${get('minute')}:${get('second')} KSA`;
+}
+updateClock();
+setInterval(updateClock, 1000);
+
+fetch('../data/weekly.json')
+  .then(r => { if (!r.ok) throw new Error('no data'); return r.json(); })
+  .then(data => {
+    allProducts = data.products || [];
+    if (allProducts.length === 0) throw new Error('empty');
+    document.getElementById('metaBox').innerHTML =
+      `Tracking last <strong>${data.days_tracked}</strong> day(s)<br>${allProducts.length} consistent bestsellers`;
+    document.getElementById('productTable').style.display = 'table';
+    document.getElementById('emptyState').style.display = 'none';
+    render();
+  })
+  .catch(() => {
+    document.getElementById('metaBox').innerText = 'Awaiting more history';
+  });
+</script>
+
+</div>
+</body>
+</html>
