@@ -14,6 +14,7 @@ Trending score logic (since true search-volume data isn't public):
 
 import json
 import os
+import requests
 from datetime import datetime, timezone
 
 from amazon_scraper import scrape_all as scrape_amazon
@@ -21,6 +22,9 @@ from noon_scraper import scrape_all as scrape_noon
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 SNAPSHOT_DIR = os.path.join(DATA_DIR, "snapshots")
+
+# Alert threshold: products with trend_score >= this get a WhatsApp ping.
+ALERT_THRESHOLD = 60
 
 
 def _key(p):
@@ -62,6 +66,41 @@ def compute_trending(products, previous_by_key):
     return products
 
 
+def send_whatsapp_alert(products):
+    """
+    Sends a WhatsApp message via CallMeBot (free) if credentials are set as
+    environment variables (CALLMEBOT_PHONE, CALLMEBOT_APIKEY). Silently does
+    nothing if they're not configured — see README for one-time setup.
+    """
+    phone = os.environ.get("CALLMEBOT_PHONE")
+    apikey = os.environ.get("CALLMEBOT_APIKEY")
+    if not phone or not apikey:
+        print("[alert] CallMeBot not configured — skipping WhatsApp alert.")
+        return
+
+    hot = [p for p in products if (p.get("trend_score") or 0) >= ALERT_THRESHOLD]
+    if not hot:
+        print("[alert] No products crossed the alert threshold today.")
+        return
+
+    hot.sort(key=lambda p: p["trend_score"], reverse=True)
+    lines = [f"🔥 Souq Signal — {len(hot)} trending product(s) today:"]
+    for p in hot[:10]:
+        tag = "NEW" if p.get("trend") == "new" else f"+{p['trend_score']}"
+        lines.append(f"• [{tag}] {p.get('title', 'Unknown')[:60]} ({p.get('source')})")
+    message = "\n".join(lines)
+
+    try:
+        resp = requests.get(
+            "https://api.callmebot.com/whatsapp.php",
+            params={"phone": phone, "text": message, "apikey": apikey},
+            timeout=15,
+        )
+        print(f"[alert] WhatsApp alert sent, status: {resp.status_code}")
+    except Exception as e:
+        print(f"[alert] Failed to send WhatsApp alert: {e}")
+
+
 def run():
     print("Starting daily product hunt...")
     products = []
@@ -85,6 +124,8 @@ def run():
 
     with open(os.path.join(DATA_DIR, "latest.json"), "w") as f:
         json.dump(snapshot, f, ensure_ascii=False, indent=2)
+
+    send_whatsapp_alert(products)
 
     print(f"Done. {len(products)} products saved for {today}.")
 

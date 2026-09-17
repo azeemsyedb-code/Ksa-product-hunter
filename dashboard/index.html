@@ -88,6 +88,18 @@
   tbody tr:hover { background: var(--surface); }
   td { padding: 13px 14px; font-size: 14.5px; vertical-align: top; }
   td.title { max-width: 420px; }
+  td.title a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--line); }
+  td.title a:hover { color: var(--gold); border-bottom-color: var(--gold); }
+  .thumb {
+    width: 40px; height: 40px;
+    object-fit: cover;
+    border-radius: 3px;
+    border: 1px solid var(--line);
+    vertical-align: middle;
+    margin-right: 10px;
+    background: var(--surface-hi);
+  }
+  .title-cell { display: flex; align-items: center; }
   .src-badge {
     display: inline-block;
     font-family: var(--font-mono);
@@ -132,6 +144,7 @@
     <button data-src="all" class="active">All sources</button>
     <button data-src="amazon.sa">Amazon.sa</button>
     <button data-src="noon.sa">Noon.sa</button>
+    <button id="exportBtn" style="margin-left:auto;">⬇ Export CSV</button>
   </div>
 
   <table id="productTable" style="display:none;">
@@ -176,8 +189,15 @@ function render() {
     <tr>
       <td class="num">${p.rank ?? '—'}</td>
       <td class="title">
-        <span class="src-badge ${p.source === 'amazon.sa' ? 'src-amazon' : 'src-noon'}">${p.source === 'amazon.sa' ? 'AMZ' : 'NOON'}</span>
-        ${p.title || 'Untitled product'}
+        <div class="title-cell">
+          ${p.image ? `<img class="thumb" src="${p.image}" loading="lazy" onerror="this.style.display='none'">` : ''}
+          <span>
+            <span class="src-badge ${p.source === 'amazon.sa' ? 'src-amazon' : 'src-noon'}">${p.source === 'amazon.sa' ? 'AMZ' : 'NOON'}</span>
+            ${p.url
+              ? `<a href="${p.url}" target="_blank" rel="noopener noreferrer">${p.title || 'Untitled product'}</a>`
+              : (p.title || 'Untitled product')}
+          </span>
+        </div>
       </td>
       <td>${p.category || '—'}</td>
       <td class="num">${p.price || '—'}</td>
@@ -190,11 +210,31 @@ function render() {
 
 document.getElementById('filterBar').addEventListener('click', (e) => {
   if (e.target.tagName !== 'BUTTON') return;
-  document.querySelectorAll('#filterBar button').forEach(b => b.classList.remove('active'));
+  if (e.target.id === 'exportBtn') return;
+  document.querySelectorAll('#filterBar button[data-src]').forEach(b => b.classList.remove('active'));
   e.target.classList.add('active');
   currentFilter = e.target.dataset.src;
   render();
 });
+
+function exportCSV() {
+  const rows = allProducts.filter(p => currentFilter === 'all' || p.source === currentFilter);
+  const headers = ['Source', 'Rank', 'Title', 'Category', 'Price', 'Rating', 'Reviews', 'Trend', 'URL'];
+  const csvRows = [headers.join(',')];
+  rows.forEach(p => {
+    const line = [
+      p.source, p.rank, p.title, p.category, p.price, p.rating, p.review_count, p.trend, p.url
+    ].map(v => `"${(v ?? '').toString().replace(/"/g, '""')}"`).join(',');
+    csvRows.push(line);
+  });
+  const blob = new Blob([csvRows.join('\n')], { type: 'text/csv;charset=utf-8;' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = `souq-signal-${new Date().toISOString().slice(0,10)}.csv`;
+  link.click();
+}
+
+document.getElementById('exportBtn').addEventListener('click', exportCSV);
 
 fetch('../data/latest.json')
   .then(r => { if (!r.ok) throw new Error('no data'); return r.json(); })

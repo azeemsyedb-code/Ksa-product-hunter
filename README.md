@@ -52,6 +52,21 @@ and shows them on a simple dashboard. Runs for free using GitHub Actions
 5. Once it finishes, check `data/latest.json` got created/updated in your
    repo, then open your dashboard URL from step 2.
 
+## Optional: WhatsApp alerts for hot products
+
+Get a free WhatsApp ping whenever a product's trend score crosses 60 (new
+entries or big rank jumps).
+
+1. Save this number in your phone: **+34 644 51 95 23**
+2. Send it a WhatsApp message: `I allow callmebot to send me messages`
+3. You'll get a reply with your **API key**.
+4. In your GitHub repo: Settings → Secrets and variables → Actions →
+   "New repository secret". Add two secrets:
+   - `CALLMEBOT_PHONE` — your WhatsApp number with country code, e.g. `9665XXXXXXXX`
+   - `CALLMEBOT_APIKEY` — the key CallMeBot sent you
+5. Next scheduled or manual run will send you a WhatsApp message if any
+   product is trending. No setup = feature silently does nothing (safe to skip).
+
 ## Project structure
 
 ```

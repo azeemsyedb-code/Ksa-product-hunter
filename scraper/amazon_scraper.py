@@ -48,6 +48,15 @@ def scrape_category(name: str, url: str):
             price_el = item.select_one(".p13n-sc-price, .a-price .a-offscreen")
             rating_el = item.select_one(".a-icon-alt")
             reviews_el = item.select_one(".a-size-small.a-color-secondary")
+            link_el = item.find("a", href=True)
+            img_el = item.find("img")
+
+            url = None
+            if link_el:
+                href = link_el["href"]
+                url = href if href.startswith("http") else f"https://www.amazon.sa{href}"
+
+            image = img_el.get("src") if img_el else None
 
             products.append({
                 "category": name,
@@ -56,6 +65,8 @@ def scrape_category(name: str, url: str):
                 "price": price_el.get_text(strip=True) if price_el else None,
                 "rating": rating_el.get_text(strip=True) if rating_el else None,
                 "review_count": reviews_el.get_text(strip=True) if reviews_el else None,
+                "url": url,
+                "image": image,
                 "source": "amazon.sa",
             })
     except Exception as e:

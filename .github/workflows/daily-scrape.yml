@@ -26,6 +26,9 @@ jobs:
       - name: Run scraper
         run: python main.py
         working-directory: scraper
+        env:
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
 
       - name: Commit and push updated data
         run: |
