@@ -1,0 +1,36 @@
+name: Daily Product Hunt (KSA)
+
+on:
+  schedule:
+    # Runs twice a day: 06:00 and 18:00 UTC (~09:00 and 21:00 KSA time).
+    # For every 6 hours instead, use: "0 0,6,12,18 * * *"
+    - cron: "0 6,18 * * *"
+  workflow_dispatch: {}  # lets you also trigger it manually from GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python main.py
+        working-directory: scraper
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "product-hunter-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Daily product data update: $(date -u +%Y-%m-%d)"
+          git push
