@@ -12,5 +12,12 @@
     "noon_count": 0,
     "amazon_ok": true,
     "noon_ok": false
+  },
+  {
+    "timestamp": "2026-09-18T06:18:06.709917+00:00",
+    "amazon_count": 60,
+    "noon_count": 0,
+    "amazon_ok": true,
+    "noon_ok": false
   }
 ]
