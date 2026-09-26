@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T06:17:46.390923+00:00",
+  "generated_at": "2026-09-26T18:16:43.397534+00:00",
   "days_tracked": 7,
   "products": [
     {
@@ -38,7 +38,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71sK+wbNc+L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 4.3,
+      "avg_rank": 4.5,
       "latest_price": null
     },
     {
@@ -90,7 +90,33 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61g9ahLRbDL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 5.7,
+      "avg_rank": 5.5,
+      "latest_price": null
+    },
+    {
+      "title": "629",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Fresh-Mint-Leaves-Bunch-Local/dp/B0FDC522GZ/ref=zg_bs_g_grocery_d_sccl_5/703-2468514-9799024?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/514nAjlEdoL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 6,
+      "days_tracked": 7,
+      "avg_rank": 7.3,
+      "latest_price": null
+    },
+    {
+      "title": "UGREEN 6-in-1 Power Strip with 3 AC Outlets & 3 USB Ports Power Extension | PD30W (2C1A), charge multiple devices at once,multi-protection, GAN, triple UK plug extender for Kitchen, Travel, Office",
+      "source": "amazon.sa",
+      "category": "All / Electronics",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/UGREEN-Power-Strip-Outlets-Extension/dp/B0C7C8WVBW/ref=zg_bs_g_electronics_d_sccl_7/703-5442858-9171156?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61Ib2BrohxL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 6,
+      "days_tracked": 7,
+      "avg_rank": 7.5,
       "latest_price": null
     },
     {
@@ -107,30 +133,17 @@
       "latest_price": null
     },
     {
-      "title": "629",
+      "title": "Berain Water Bottle - Size 40×330 ml",
       "source": "amazon.sa",
       "category": "All / Grocery",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Fresh-Mint-Leaves-Bunch-Local/dp/B0FDC522GZ/ref=zg_bs_g_grocery_d_sccl_5/703-2468514-9799024?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/514nAjlEdoL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Berain-Water-Bottle-Size-40%C3%97330/dp/B085XMD6C7/ref=zg_bs_g_grocery_d_sccl_25/703-2468514-9799024?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61RuL-8OzqL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 7.5,
-      "latest_price": null
-    },
-    {
-      "title": "UGREEN 6-in-1 Power Strip with 3 AC Outlets & 3 USB Ports Power Extension | PD30W (2C1A), charge multiple devices at once,multi-protection, GAN, triple UK plug extender for Kitchen, Travel, Office",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/UGREEN-Power-Strip-Outlets-Extension/dp/B0C7C8WVBW/ref=zg_bs_g_electronics_d_sccl_7/703-5442858-9171156?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61Ib2BrohxL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 7.7,
-      "latest_price": null
+      "avg_rank": 8.2,
+      "latest_price": 23.0
     },
     {
       "title": "Fujifilm instax Mini Instant Film – White Border (20 Exposures) – Film Only",
@@ -142,21 +155,8 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61cpxtAOkFL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 8.2,
+      "avg_rank": 8.5,
       "latest_price": null
-    },
-    {
-      "title": "Berain Water Bottle - Size 40×330 ml",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Berain-Water-Bottle-Size-40%C3%97330/dp/B085XMD6C7/ref=zg_bs_g_grocery_d_sccl_25/703-2468514-9799024?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61RuL-8OzqL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 8.3,
-      "latest_price": 23.0
     },
     {
       "title": "Dove Moisturising Soap Bar Nourishing Formula for All Skin Types, Pink with ¼ Moisturising Cream, 125g - Pack of 4",
@@ -172,19 +172,6 @@
       "latest_price": null
     },
     {
-      "title": "548",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Fresh-Parsley-Leaves-Bunch-Local/dp/B0FDBYG8RR/ref=zg_bs_g_grocery_d_sccl_6/703-2468514-9799024?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61h5GxabCTL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 10.7,
-      "latest_price": null
-    },
-    {
       "title": "Lux Opulent Fragrance Body Wash, NEW Magical Orchid, 30H Long-Lasting Scent, with Everscent Essential Oil, 700ml",
       "source": "amazon.sa",
       "category": "All / Beauty",
@@ -194,7 +181,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71MxcSBsF5L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 11.3,
+      "avg_rank": 10.7,
       "latest_price": null
     },
     {
@@ -233,7 +220,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51k1B2Yz9XL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 12.0,
+      "avg_rank": 12.3,
       "latest_price": null
     },
     {
@@ -246,7 +233,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71am9YEelHL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 12.7,
+      "avg_rank": 12.5,
       "latest_price": null
     },
     {
@@ -259,7 +246,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/41gB8rTn8tL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 13.3,
+      "avg_rank": 13.7,
       "latest_price": null
     },
     {
@@ -272,7 +259,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71IE9dLBduL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 14.0,
+      "avg_rank": 13.8,
       "latest_price": null
     },
     {
@@ -285,7 +272,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71oGBORlcVL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 14.0,
+      "avg_rank": 14.3,
       "latest_price": null
     },
     {
@@ -298,7 +285,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61o-Fax2OhL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 14.8,
+      "avg_rank": 14.7,
       "latest_price": null
     },
     {
@@ -311,7 +298,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51cMOyiK16L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 16.8,
+      "avg_rank": 16.3,
       "latest_price": null
     },
     {
@@ -324,20 +311,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51+Yy-QnlnL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 17.3,
-      "latest_price": null
-    },
-    {
-      "title": "UGREEN Nexode 65W Charger Type C, GaN Fast Charge Plug with Foldable Prong | USB-C 3-Port Charging Adapter Compact Laptop Power Compatible for iPhone 18 Pro Max, Galaxy S25 Ultra, iPad, MacBook Air",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/UGREEN-Nexode-Charger-Charge-Foldable/dp/B0B7N4DX1Z/ref=zg_bs_g_electronics_d_sccl_25/703-5442858-9171156?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51sTKoB2WKL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 17.8,
+      "avg_rank": 17.2,
       "latest_price": null
     },
     {
@@ -350,7 +324,20 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61pbMWPMsRL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 18.2,
+      "avg_rank": 17.8,
+      "latest_price": null
+    },
+    {
+      "title": "UGREEN Nexode 65W Charger Type C, GaN Fast Charge Plug with Foldable Prong | USB-C 3-Port Charging Adapter Compact Laptop Power Compatible for iPhone 18 Pro Max, Galaxy S25 Ultra, iPad, MacBook Air",
+      "source": "amazon.sa",
+      "category": "All / Electronics",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/UGREEN-Nexode-Charger-Charge-Foldable/dp/B0B7N4DX1Z/ref=zg_bs_g_electronics_d_sccl_25/703-5442858-9171156?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51sTKoB2WKL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 6,
+      "days_tracked": 7,
+      "avg_rank": 18.0,
       "latest_price": null
     },
     {
@@ -363,7 +350,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61K3Y0MZMpL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 19.3,
+      "avg_rank": 19.7,
       "latest_price": null
     },
     {
@@ -376,7 +363,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61327vcNSnL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 19.7,
+      "avg_rank": 20.0,
       "latest_price": null
     },
     {
@@ -389,7 +376,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71I-3LRnamL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 20.5,
+      "avg_rank": 20.7,
       "latest_price": null
     },
     {
@@ -415,33 +402,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61iB-a5cJ2L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 21.7,
-      "latest_price": null
-    },
-    {
-      "title": "132",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/AlSafi-Full-Fat-Yogurt-120/dp/B0FCYN6HFB/ref=zg_bs_g_grocery_d_sccl_19/703-2468514-9799024?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71DNLRPwu8L._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 21.7,
-      "latest_price": null
-    },
-    {
-      "title": "Anker Soundcore P20i Bluetooth Earphones, 10mm Drivers with Big Bass True Wireless Earbuds, Bluetooth 5.3, 30H Playtime, IPX5, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization via App",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/Soundcore-Bluetooth-Earphones-Wireless-Customization/dp/B0BTYCRJSS/ref=zg_bs_g_electronics_d_sccl_15/703-5442858-9171156?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51+qzpA7y+L._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 22.2,
+      "avg_rank": 21.8,
       "latest_price": null
     },
     {
@@ -458,6 +419,32 @@
       "latest_price": null
     },
     {
+      "title": "Anker Soundcore P20i Bluetooth Earphones, 10mm Drivers with Big Bass True Wireless Earbuds, Bluetooth 5.3, 30H Playtime, IPX5, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization via App",
+      "source": "amazon.sa",
+      "category": "All / Electronics",
+      "brand": null,
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/Soundcore-Bluetooth-Earphones-Wireless-Customization/dp/B0BTYCRJSS/ref=zg_bs_g_electronics_d_sccl_15/703-5442858-9171156?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51+qzpA7y+L._AC_UL300_SR300,200_.jpg",
+      "days_seen": 6,
+      "days_tracked": 7,
+      "avg_rank": 22.3,
+      "latest_price": null
+    },
+    {
+      "title": "132",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/AlSafi-Full-Fat-Yogurt-120/dp/B0FCYN6HFB/ref=zg_bs_g_grocery_d_sccl_19/703-2468514-9799024?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71DNLRPwu8L._AC_UL300_SR300,200_.jpg",
+      "days_seen": 6,
+      "days_tracked": 7,
+      "avg_rank": 22.3,
+      "latest_price": null
+    },
+    {
       "title": "Pantene Pro-V Daily Care 2-in-1 Shampoo for Clean Hair, 1L",
       "source": "amazon.sa",
       "category": "All / Beauty",
@@ -467,7 +454,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61bRP0-BHFL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 22.8,
+      "avg_rank": 23.2,
       "latest_price": null
     },
     {
@@ -480,7 +467,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51lwsfx3eBL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 23.2,
+      "avg_rank": 23.3,
       "latest_price": null
     },
     {
@@ -493,20 +480,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61klMwXJPbL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 24.0,
-      "latest_price": null
-    },
-    {
-      "title": "TOCOL for iPhone 18 Pro Case, Compatible with MagSafe, Burgundy | Built-in Magnets, Full Camera & Military-Grade Drop Protection, Camera Control Cover, Anti-Scratch, Slim Translucent Matte",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/TOCOL-iPhone-18-Pro-Compatible/dp/B0H4KNCZDN/ref=zg_bs_g_electronics_d_sccl_20/703-5442858-9171156?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71ofwetipVL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 24.2,
+      "avg_rank": 23.7,
       "latest_price": null
     },
     {
@@ -519,7 +493,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/614wiJBknkL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 24.8,
+      "avg_rank": 24.7,
       "latest_price": null
     },
     {
@@ -532,7 +506,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/613cG3k4ZPL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 27.7,
+      "avg_rank": 27.2,
       "latest_price": null
     },
     {
@@ -546,19 +520,6 @@
       "days_seen": 5,
       "days_tracked": 7,
       "avg_rank": 1.0,
-      "latest_price": null
-    },
-    {
-      "title": "Intex 59030 Beach Ball 24 Inch",
-      "source": "amazon.sa",
-      "category": "All / Toys",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Intex-Glossy-Panel-Beach-Ball/dp/B0007XC2ME/ref=zg_bs_g_toys_d_sccl_6/702-5506553-2693335?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/41EoaHlEaaL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 2.0,
       "latest_price": null
     },
     {
@@ -584,7 +545,20 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51jivfpo3gL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 2.8,
+      "avg_rank": 2.4,
+      "latest_price": null
+    },
+    {
+      "title": "Intex 59030 Beach Ball 24 Inch",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Intex-Glossy-Panel-Beach-Ball/dp/B0007XC2ME/ref=zg_bs_g_toys_d_sccl_6/702-5506553-2693335?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/41EoaHlEaaL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 2.6,
       "latest_price": null
     },
     {
@@ -601,32 +575,6 @@
       "latest_price": null
     },
     {
-      "title": "Soft Plastic Ocean Ball Toys - 50 Pieces",
-      "source": "amazon.sa",
-      "category": "All / Toys",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Soft-Plastic-Ocean-Ball-Toys/dp/B0839Q3QY4/ref=zg_bs_g_toys_d_sccl_7/702-5506553-2693335?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71-6alXOg6L._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 4.0,
-      "latest_price": null
-    },
-    {
-      "title": "Apple iPhone 18 Pro 256 GB: – Burgundy | 6.3-inch Super Retina XDR Display with ProMotion, All-Day Battery Life, 48MP Fusion Main Camera with Variable Aperture",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/Apple-iPhone-18-Pro-256/dp/B0HJ9ZYZQR/ref=zg_bs_g_electronics_d_sccl_5/700-3888344-4957663?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71PvCbPVCEL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 4.4,
-      "latest_price": null
-    },
-    {
       "title": "Lyreh Butter Squeeze Toy, Butter Stick Toys Slow Growth Relax PU Material for Office School Anxiety Relief and Decompression (Light Yellow)",
       "source": "amazon.sa",
       "category": "All / Toys",
@@ -634,6 +582,19 @@
       "product_type": "non-branded",
       "url": "https://www.amazon.sa/-/en/Lyreh-Squeeze-Material-Anxiety-Decompression/dp/B0F7XV8DL2/ref=zg_bs_g_toys_d_sccl_1/702-5506553-2693335?psc=1",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61I7cBTfzhL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 4.6,
+      "latest_price": null
+    },
+    {
+      "title": "Soft Plastic Ocean Ball Toys - 50 Pieces",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Soft-Plastic-Ocean-Ball-Toys/dp/B0839Q3QY4/ref=zg_bs_g_toys_d_sccl_7/702-5506553-2693335?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71-6alXOg6L._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
       "avg_rank": 4.6,
@@ -649,7 +610,20 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/81+NMessH7L._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 5.4,
+      "avg_rank": 4.8,
+      "latest_price": null
+    },
+    {
+      "title": "Apple iPhone 18 Pro 256 GB: – Burgundy | 6.3-inch Super Retina XDR Display with ProMotion, All-Day Battery Life, 48MP Fusion Main Camera with Variable Aperture",
+      "source": "amazon.sa",
+      "category": "All / Electronics",
+      "brand": null,
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/Apple-iPhone-18-Pro-256/dp/B0HJ9ZYZQR/ref=zg_bs_g_electronics_d_sccl_5/700-3888344-4957663?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71PvCbPVCEL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 4.8,
       "latest_price": null
     },
     {
@@ -662,7 +636,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/713MYP-S1UL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 6.6,
+      "avg_rank": 6.0,
       "latest_price": null
     },
     {
@@ -675,7 +649,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/91Xc3eoLhmL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 6.6,
+      "avg_rank": 7.0,
       "latest_price": null
     },
     {
@@ -688,7 +662,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/7129ghXEfiL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 6.6,
+      "avg_rank": 7.0,
       "latest_price": null
     },
     {
@@ -718,16 +692,16 @@
       "latest_price": null
     },
     {
-      "title": "Supecaty 30 Pcs Pull Back Toy Cars & Planes Set with Storage Box, Mixed Vehicle Types - Sporty, 3+ Years Old Kids Boys Girls Gift",
+      "title": "240",
       "source": "amazon.sa",
-      "category": "All / Toys",
+      "category": "All / Grocery",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Supecaty-Planes-Storage-Mixed-Vehicle/dp/B0DHRSZTNW/ref=zg_bs_g_toys_d_sccl_3/702-5506553-2693335?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/713x7uDPl8L._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Almarai-Full-Fresh-Milk-Liter/dp/B0DWX9K4N9/ref=zg_bs_g_grocery_d_sccl_7/701-4204075-7565433?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/710rcU5y-8L._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 7.8,
+      "avg_rank": 8.2,
       "latest_price": null
     },
     {
@@ -744,13 +718,13 @@
       "latest_price": null
     },
     {
-      "title": "240",
+      "title": "Supecaty 30 Pcs Pull Back Toy Cars & Planes Set with Storage Box, Mixed Vehicle Types - Sporty, 3+ Years Old Kids Boys Girls Gift",
       "source": "amazon.sa",
-      "category": "All / Grocery",
+      "category": "All / Toys",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Almarai-Full-Fresh-Milk-Liter/dp/B0DWX9K4N9/ref=zg_bs_g_grocery_d_sccl_7/701-4204075-7565433?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/710rcU5y-8L._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Supecaty-Planes-Storage-Mixed-Vehicle/dp/B0DHRSZTNW/ref=zg_bs_g_toys_d_sccl_3/702-5506553-2693335?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/713x7uDPl8L._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
       "avg_rank": 8.8,
@@ -766,7 +740,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/81wTuLcINyL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 9.2,
+      "avg_rank": 9.6,
       "latest_price": null
     },
     {
@@ -779,7 +753,20 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71SpB2aOfpL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 10.2,
+      "avg_rank": 9.8,
+      "latest_price": null
+    },
+    {
+      "title": "548",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Fresh-Parsley-Leaves-Bunch-Local/dp/B0FDBYG8RR/ref=zg_bs_g_grocery_d_sccl_6/703-2468514-9799024?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61h5GxabCTL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 10.4,
       "latest_price": null
     },
     {
@@ -792,46 +779,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51xTKz9g3+L._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 11.2,
-      "latest_price": null
-    },
-    {
-      "title": "Intex My Baby Float 59574NP",
-      "source": "amazon.sa",
-      "category": "All / Toys",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Intex-My-Baby-Float-59574NP/dp/B01N6O15W2/ref=zg_bs_g_toys_d_sccl_30/702-5506553-2693335?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61tdKbmHOpL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 13.2,
-      "latest_price": null
-    },
-    {
-      "title": "Al Shalan Punjabi Super Rice - White Basmati Rice 10Kg",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Al-Shalan-Punjabi-Super-Rice/dp/B09VNQKJG4/ref=zg_bs_g_grocery_d_sccl_17/701-4204075-7565433?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61moMhzPsvL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 13.8,
-      "latest_price": null
-    },
-    {
-      "title": "Magnetic Tiles Kids STEM Magnet Blocks Building Toys for Boys and Girls | Preschool Learning, Sensory Montessori Toys, Safe Creativity, Games for Toddlers Kids, Starter Set, Compatible, Birthday Gift",
-      "source": "amazon.sa",
-      "category": "All / Toys",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Magnetic-Tiles-Magnet-Blocks-Building/dp/B0BGLTYW59/ref=zg_bs_g_toys_d_sccl_4/702-5506553-2693335?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/81Q7GtEiP8L._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 14.6,
+      "avg_rank": 11.8,
       "latest_price": null
     },
     {
@@ -844,7 +792,20 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71mKFYJPiVL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 14.8,
+      "avg_rank": 13.6,
+      "latest_price": null
+    },
+    {
+      "title": "Magnetic Tiles Kids STEM Magnet Blocks Building Toys for Boys and Girls | Preschool Learning, Sensory Montessori Toys, Safe Creativity, Games for Toddlers Kids, Starter Set, Compatible, Birthday Gift",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Magnetic-Tiles-Magnet-Blocks-Building/dp/B0BGLTYW59/ref=zg_bs_g_toys_d_sccl_4/702-5506553-2693335?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81Q7GtEiP8L._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 14.2,
       "latest_price": null
     },
     {
@@ -857,33 +818,46 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71dTD-TkDfL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 15.6,
+      "avg_rank": 14.6,
       "latest_price": null
     },
     {
-      "title": "Tikduck Flying Orb Ball 2026 Toys Soaring Hover Boomerang Spinner Hand Controlled Mini Drone Cosmic Globe Spinning Kids Adults Outdoor Birthday Gift Cool Stuff for Boys Girls 6 7 8 9 10+ Year Old",
+      "title": "Intex My Baby Float 59574NP",
       "source": "amazon.sa",
       "category": "All / Toys",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Tikduck-Boomerang-Controlled-Spinning-Birthday/dp/B096LVFBMW/ref=zg_bs_g_toys_d_sccl_19/702-5506553-2693335?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71DrHrrv6AL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Intex-My-Baby-Float-59574NP/dp/B01N6O15W2/ref=zg_bs_g_toys_d_sccl_30/702-5506553-2693335?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61tdKbmHOpL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 16.6,
+      "avg_rank": 14.8,
       "latest_price": null
     },
     {
-      "title": "359",
+      "title": "Al Shalan Punjabi Super Rice - White Basmati Rice 10Kg",
       "source": "amazon.sa",
       "category": "All / Grocery",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/rahima-6281106111010-Rahima-Premium-30-Pieces/dp/B0F9YYVFV7/ref=zg_bs_g_grocery_d_sccl_15/701-4204075-7565433?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61g+GXb6jKL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Al-Shalan-Punjabi-Super-Rice/dp/B09VNQKJG4/ref=zg_bs_g_grocery_d_sccl_17/701-4204075-7565433?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61moMhzPsvL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 17.4,
+      "avg_rank": 15.0,
+      "latest_price": null
+    },
+    {
+      "title": "Saudia Tomato Paste, 8 x 135g | Rich & Thick Consistency | Perfect for Sauces, Soups & Cooking",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Saudia-Tomato-Consistency-Perfect-Cooking/dp/B083B1SMJT/ref=zg_bs_g_grocery_d_sccl_19/701-4204075-7565433?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61viwQ02iEL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 16.8,
       "latest_price": null
     },
     {
@@ -900,16 +874,16 @@
       "latest_price": null
     },
     {
-      "title": "Saudia Tomato Paste, 8 x 135g | Rich & Thick Consistency | Perfect for Sauces, Soups & Cooking",
+      "title": "359",
       "source": "amazon.sa",
       "category": "All / Grocery",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Saudia-Tomato-Consistency-Perfect-Cooking/dp/B083B1SMJT/ref=zg_bs_g_grocery_d_sccl_19/701-4204075-7565433?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61viwQ02iEL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/rahima-6281106111010-Rahima-Premium-30-Pieces/dp/B0F9YYVFV7/ref=zg_bs_g_grocery_d_sccl_15/701-4204075-7565433?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61g+GXb6jKL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 18.0,
+      "avg_rank": 18.4,
       "latest_price": null
     },
     {
@@ -922,7 +896,33 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/814ZEfiOiAL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 18.6,
+      "avg_rank": 18.8,
+      "latest_price": null
+    },
+    {
+      "title": "Tikduck Flying Orb Ball 2026 Toys Soaring Hover Boomerang Spinner Hand Controlled Mini Drone Cosmic Globe Spinning Kids Adults Outdoor Birthday Gift Cool Stuff for Boys Girls 6 7 8 9 10+ Year Old",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Tikduck-Boomerang-Controlled-Spinning-Birthday/dp/B096LVFBMW/ref=zg_bs_g_toys_d_sccl_19/702-5506553-2693335?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71DrHrrv6AL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 19.0,
+      "latest_price": null
+    },
+    {
+      "title": "Sandisk Ultra 64Gb Microsdxc Uhs-1 Card 100Mb/S Sdsqunr-064G-Gn3Mn",
+      "source": "amazon.sa",
+      "category": "All / Electronics",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Sandisk-Ultra-Microsdxc-Uhs-1-Sdsqunr-064G-Gn3Mn/dp/B08HYFSXKW/ref=zg_bs_g_electronics_d_sccl_14/703-5442858-9171156?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61MrLrMrdUL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 20.2,
       "latest_price": null
     },
     {
@@ -939,32 +939,6 @@
       "latest_price": null
     },
     {
-      "title": "JETech Screen Protector for iPhone 18 Pro/17 Pro, 3-Pack | 9H Tempered Glass, HD Clear, Anti-Scratch Protection, Easy Installation Tool",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/JETech-Screen-Protector-iPhone-3-Pack/dp/B0FJL2V7XR/ref=zg_bs_g_electronics_d_sccl_8/703-5442858-9171156?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71B-II4K+aL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 21.4,
-      "latest_price": null
-    },
-    {
-      "title": "Sandisk Ultra 64Gb Microsdxc Uhs-1 Card 100Mb/S Sdsqunr-064G-Gn3Mn",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Sandisk-Ultra-Microsdxc-Uhs-1-Sdsqunr-064G-Gn3Mn/dp/B08HYFSXKW/ref=zg_bs_g_electronics_d_sccl_14/703-5442858-9171156?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61MrLrMrdUL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 21.4,
-      "latest_price": null
-    },
-    {
       "title": "Butter Squishy, 2026 Newest Slow Rising Soft Squeeze Toy, Realistic Food Sensory Fidget Toy for Stress & Anxiety Relief, Desk Decor, Party Favors & Birthday Gifts, 2 Pack (Pink&Yellow)",
       "source": "amazon.sa",
       "category": "All / Toys",
@@ -974,33 +948,33 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61Tr+-9z+zL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 22.0,
+      "avg_rank": 20.8,
       "latest_price": null
     },
     {
-      "title": "Cheese Squishy Jumbo Cheese Block, Big Squishy Cheese Stress Ball, Soft Slow Rising Squeeze Toy, Giant Fidget Sensory Toy for Adults Teens Gifts",
+      "title": "JETech Screen Protector for iPhone 18 Pro/17 Pro, 3-Pack | 9H Tempered Glass, HD Clear, Anti-Scratch Protection, Easy Installation Tool",
       "source": "amazon.sa",
-      "category": "All / Toys",
+      "category": "All / Electronics",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Cheese-Squishy-Stress-Squeeze-Sensory/dp/B0GTZJ1J6Z/ref=zg_bs_g_toys_d_sccl_26/702-5506553-2693335?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61BL+EOwfXL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/JETech-Screen-Protector-iPhone-3-Pack/dp/B0FJL2V7XR/ref=zg_bs_g_electronics_d_sccl_8/703-5442858-9171156?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71B-II4K+aL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 23.8,
+      "avg_rank": 21.2,
       "latest_price": null
     },
     {
-      "title": "136",
+      "title": "TOCOL for iPhone 18 Pro Case, Compatible with MagSafe, Burgundy | Built-in Magnets, Full Camera & Military-Grade Drop Protection, Camera Control Cover, Anti-Scratch, Slim Translucent Matte",
       "source": "amazon.sa",
-      "category": "All / Grocery",
+      "category": "All / Electronics",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Lusine-Sliced-Bread-Bran-615G/dp/B07VTQDY22/ref=zg_bs_g_grocery_d_sccl_26/703-2468514-9799024?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/81Kbj+AU26L._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/TOCOL-iPhone-18-Pro-Compatible/dp/B0H4KNCZDN/ref=zg_bs_g_electronics_d_sccl_20/703-5442858-9171156?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71ofwetipVL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 27.8,
+      "avg_rank": 23.6,
       "latest_price": null
     },
     {
@@ -1013,8 +987,8 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/714vgcjgRYL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 3.2,
-      "latest_price": 23.99
+      "avg_rank": 3.5,
+      "latest_price": 15.3
     },
     {
       "title": "L'Oreal Paris Elvive Extraordinary Oil Sublime Enhancer Serum for Very Dry Hair, 100ml",
@@ -1026,21 +1000,8 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/511R1bI-0hL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 4.2,
+      "avg_rank": 4.0,
       "latest_price": null
-    },
-    {
-      "title": "Garnier Skinactive Micellar Cleansing Water Classic, Makeup Remover 700 Ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Garnier-Skinactive-Micellar-Cleansing-Classic/dp/B08MVG7ZG2/ref=zg_bs_g_beauty_d_sccl_8/704-1563328-9390007?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51m-vL78wxL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 4,
-      "days_tracked": 7,
-      "avg_rank": 7.5,
-      "latest_price": 42.0
     },
     {
       "title": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch ID, All-Day Battery Life — Silver",
@@ -1052,7 +1013,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/616FFqht2sL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 11.5,
+      "avg_rank": 11.2,
       "latest_price": null
     },
     {
@@ -1065,8 +1026,8 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61GS83gC6VL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 11.8,
-      "latest_price": null
+      "avg_rank": 12.8,
+      "latest_price": 44.95
     },
     {
       "title": "L'Oreal Paris Volume Million Lashes Panorama Mascara in Black, 9.9 ml",
@@ -1078,7 +1039,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/41PyHjlNU2L._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 12.5,
+      "avg_rank": 13.8,
       "latest_price": null
     },
     {
@@ -1091,21 +1052,8 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/510iBy8TqwL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 13.5,
+      "avg_rank": 14.0,
       "latest_price": null
-    },
-    {
-      "title": "Johnson's Vita-Rich Replenishing Body Wash with Raspberry Extract and Glycerin, Moisturizing Foamy Formula for Intense Hydration, 400ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Vita-Rich-Replenishing-Raspberry-Moisturizing-Hydration/dp/B076F7C6SB/ref=zg_bs_g_beauty_d_sccl_3/703-2989192-2201615?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61ZiyWvDQtL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 4,
-      "days_tracked": 7,
-      "avg_rank": 14.8,
-      "latest_price": 15.8
     },
     {
       "title": "MAYBELLINE New York Super Stay Vinyl Ink Longwear Transfer Proof Gloss Lipstick, 35 CHEEKY",
@@ -1117,7 +1065,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/41N7HjR5xJL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 15.5,
+      "avg_rank": 15.2,
       "latest_price": null
     },
     {
@@ -1130,7 +1078,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/610YdCIJCRL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 16.2,
+      "avg_rank": 15.8,
       "latest_price": null
     },
     {
@@ -1143,20 +1091,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71l5jbdbgGL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 17.8,
-      "latest_price": null
-    },
-    {
-      "title": "HyperX Cloud III – Wired Gaming Headset, PC, PS5, Xbox Series X|S, Angled 53mm Drivers, DTS, Memory Foam, Durable Frame, Ultra-Clear 10mm Mic, USB-C, USB-A, 3.5mm – Black/Red",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/HyperX-Cloud-III-Ultra-Clear-USB/dp/B0C3BV19Q3/ref=zg_bs_g_electronics_d_sccl_19/704-6688571-0625848?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71pz2njkNRL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 4,
-      "days_tracked": 7,
-      "avg_rank": 20.8,
+      "avg_rank": 18.5,
       "latest_price": null
     },
     {
@@ -1169,7 +1104,59 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61TCPK-yYHL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
+      "avg_rank": 20.5,
+      "latest_price": null
+    },
+    {
+      "title": "113",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Al-Safi-Creamy-Labneh-400/dp/B0CP7V6P8T/ref=zg_bs_g_grocery_d_sccl_25/701-4204075-7565433?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61hrL3hRAoL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
       "avg_rank": 21.2,
+      "latest_price": null
+    },
+    {
+      "title": "SLEEPHEAD® Dumpling Squishy， Slow Rising Stress Relief Toy， Bun Squishy Fidget Toy Kids & Adults",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/SLEEPHEAD%C2%AE-Dumpling-Squishy%EF%BC%8C-Rising-Squishy/dp/B0H5W2N2WP/ref=zg_bs_g_toys_d_sccl_9/702-5506553-2693335?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71cWEWBqbtL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 21.5,
+      "latest_price": null
+    },
+    {
+      "title": "HyperX Cloud III – Wired Gaming Headset, PC, PS5, Xbox Series X|S, Angled 53mm Drivers, DTS, Memory Foam, Durable Frame, Ultra-Clear 10mm Mic, USB-C, USB-A, 3.5mm – Black/Red",
+      "source": "amazon.sa",
+      "category": "All / Electronics",
+      "brand": null,
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/HyperX-Cloud-III-Ultra-Clear-USB/dp/B0C3BV19Q3/ref=zg_bs_g_electronics_d_sccl_19/704-6688571-0625848?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71pz2njkNRL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 22.0,
+      "latest_price": null
+    },
+    {
+      "title": "Cheese Squishy Jumbo Cheese Block, Big Squishy Cheese Stress Ball, Soft Slow Rising Squeeze Toy, Giant Fidget Sensory Toy for Adults Teens Gifts",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Cheese-Squishy-Stress-Squeeze-Sensory/dp/B0GTZJ1J6Z/ref=zg_bs_g_toys_d_sccl_26/702-5506553-2693335?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61BL+EOwfXL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 23.2,
       "latest_price": null
     },
     {
@@ -1182,7 +1169,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71ydk7ZEneL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 23.2,
+      "avg_rank": 23.5,
       "latest_price": null
     },
     {
@@ -1208,46 +1195,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71OG0eQcj8L._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 24.0,
-      "latest_price": null
-    },
-    {
-      "title": "Arwa Bottled Drinking Water, 6pcsx1.5L pack",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Arwa-Bottled-Drinking-Water-6pcsx1-5L/dp/B07G9J3PR3/ref=zg_bs_g_grocery_d_sccl_28/701-4204075-7565433?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71-oDX-MHFL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 4,
-      "days_tracked": 7,
-      "avg_rank": 24.2,
-      "latest_price": 29.95
-    },
-    {
-      "title": "Lipton Yellow Label Black Tea, 100 Bags - Pack Of 1",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Lipton-Yellow-Label-Black-Bags/dp/B08LPMQH6F/ref=zg_bs_g_grocery_d_sccl_28/703-8795962-9614120?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/715fM6i1xFL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 4,
-      "days_tracked": 7,
-      "avg_rank": 24.2,
-      "latest_price": null
-    },
-    {
-      "title": "113",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Al-Safi-Creamy-Labneh-400/dp/B0CP7V6P8T/ref=zg_bs_g_grocery_d_sccl_25/701-4204075-7565433?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61hrL3hRAoL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 4,
-      "days_tracked": 7,
-      "avg_rank": 25.0,
+      "avg_rank": 24.5,
       "latest_price": null
     },
     {
@@ -1260,7 +1208,46 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/41T7p5mdrhL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 25.5,
+      "avg_rank": 24.8,
+      "latest_price": null
+    },
+    {
+      "title": "Arwa Bottled Drinking Water, 6pcsx1.5L pack",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Arwa-Bottled-Drinking-Water-6pcsx1-5L/dp/B07G9J3PR3/ref=zg_bs_g_grocery_d_sccl_28/701-4204075-7565433?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71-oDX-MHFL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 24.8,
+      "latest_price": 29.95
+    },
+    {
+      "title": "Lipton Yellow Label Black Tea, 100 Bags - Pack Of 1",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Lipton-Yellow-Label-Black-Bags/dp/B08LPMQH6F/ref=zg_bs_g_grocery_d_sccl_28/703-8795962-9614120?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/715fM6i1xFL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 25.2,
+      "latest_price": null
+    },
+    {
+      "title": "136",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Lusine-Sliced-Bread-Bran-615G/dp/B07VTQDY22/ref=zg_bs_g_grocery_d_sccl_26/703-2468514-9799024?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81Kbj+AU26L._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 27.2,
       "latest_price": null
     },
     {
@@ -1273,7 +1260,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71fU3wMVebL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 28.2,
+      "avg_rank": 29.0,
       "latest_price": null
     },
     {
@@ -1303,17 +1290,43 @@
       "latest_price": 19.99
     },
     {
-      "title": "JETech Privacy Screen Protector for iPhone 17 Pro, 2-Pack | Anti-Spy Privacy Protection, Tempered Glass, Easy Installation Tool, Anti-Scratch Design",
+      "title": "Garnier SkinActive Micellar Cleansing Water Classic, Soothing & Detoxifying, for Sensitive Skin, 400ml",
       "source": "amazon.sa",
-      "category": "All / Electronics",
+      "category": "All / Beauty",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/JETech-Privacy-Screen-Protector-iPhone/dp/B0FJG8J48Q/ref=zg_bs_g_electronics_d_sccl_10/704-6688571-0625848?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61MoiKm1SZL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Garnier-SkinActive-Cleansing-Detoxifying-Sensitive/dp/B07BXZSCRL/ref=zg_bs_g_beauty_d_sccl_4/703-2989192-2201615?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51P5q2FvAhL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 8.7,
+      "avg_rank": 6.3,
       "latest_price": null
+    },
+    {
+      "title": "Garnier Skinactive Micellar Cleansing Water Classic, Makeup Remover 700 Ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Garnier-Skinactive-Micellar-Cleansing-Classic/dp/B08MVG7ZG2/ref=zg_bs_g_beauty_d_sccl_8/704-1563328-9390007?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51m-vL78wxL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 3,
+      "days_tracked": 7,
+      "avg_rank": 7.7,
+      "latest_price": 42.0
+    },
+    {
+      "title": "Johnson's Vita-Rich Replenishing Body Wash with Raspberry Extract and Glycerin, Moisturizing Foamy Formula for Intense Hydration, 400ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Vita-Rich-Replenishing-Raspberry-Moisturizing-Hydration/dp/B076F7C6SB/ref=zg_bs_g_beauty_d_sccl_3/703-2989192-2201615?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61ZiyWvDQtL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 3,
+      "days_tracked": 7,
+      "avg_rank": 9.7,
+      "latest_price": 15.8
     },
     {
       "title": "Glitter Dumpling Squishy, Squishies Dumplings Fidget Sensory Toy Stress Relief, with Mystery Steamer Box, Slow Rising Dumpling Squeeze Stress Balls Toy for Kids & Adults",
@@ -1325,33 +1338,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/615ft+6hrAL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 12.0,
-      "latest_price": null
-    },
-    {
-      "title": "Coca-Cola Zero Soft Drink – 12 x 150 ml Cans (10 + 2 FREE)",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Coca-Cola-Zero-Soft-Drink-Cans/dp/B0GKFCNDKW/ref=zg_bs_g_grocery_d_sccl_14/701-4204075-7565433?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51byIOiyPmL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 3,
-      "days_tracked": 7,
-      "avg_rank": 15.7,
-      "latest_price": null
-    },
-    {
-      "title": "412",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Fresh-Jerger-Leaves-Bunch-Local/dp/B0FDBP1CHS/ref=zg_bs_g_grocery_d_sccl_17/703-0074395-2482050?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61XsEompAIL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 3,
-      "days_tracked": 7,
-      "avg_rank": 16.7,
+      "avg_rank": 12.7,
       "latest_price": null
     },
     {
@@ -1368,6 +1355,19 @@
       "latest_price": null
     },
     {
+      "title": "412",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Fresh-Jerger-Leaves-Bunch-Local/dp/B0FDBP1CHS/ref=zg_bs_g_grocery_d_sccl_17/703-0074395-2482050?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61XsEompAIL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 3,
+      "days_tracked": 7,
+      "avg_rank": 17.7,
+      "latest_price": null
+    },
+    {
       "title": "Abu Kass Indian Mazza Basmati Rice 10 Kg",
       "source": "amazon.sa",
       "category": "All / Grocery",
@@ -1377,33 +1377,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71jFlOUrVsL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 21.7,
-      "latest_price": null
-    },
-    {
-      "title": "SLEEPHEAD® Dumpling Squishy， Slow Rising Stress Relief Toy， Bun Squishy Fidget Toy Kids & Adults",
-      "source": "amazon.sa",
-      "category": "All / Toys",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/SLEEPHEAD%C2%AE-Dumpling-Squishy%EF%BC%8C-Rising-Squishy/dp/B0H5W2N2WP/ref=zg_bs_g_toys_d_sccl_9/702-5506553-2693335?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71cWEWBqbtL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 3,
-      "days_tracked": 7,
-      "avg_rank": 22.0,
-      "latest_price": null
-    },
-    {
-      "title": "iPlay, iLearn Baby Press to Go Car Toys for Toddlers 1-3, 1 Yr Old Boy Gift | Infant Play Vehicle Set, Push Go Friction Car, Montessori Toy for 6-9-12-18 Months, 1st Birthday Gifts for 1-2 Years Old Girl",
-      "source": "amazon.sa",
-      "category": "All / Toys",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/iPlay-iLearn-Baby-Press-Toddlers/dp/B0BTBV51KY/ref=zg_bs_g_toys_d_sccl_22/703-4635168-0971416?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71DKbcOeHcL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 3,
-      "days_tracked": 7,
-      "avg_rank": 23.3,
+      "avg_rank": 21.0,
       "latest_price": null
     },
     {
@@ -1416,20 +1390,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71r+vo1+dIL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 24.7,
-      "latest_price": null
-    },
-    {
-      "title": "Apple EarPods with Lightning Connector ​​​​​​​",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/Apple-EarPods-with-Lightning-Connector/dp/B0D7MP9P4Q/ref=zg_bs_g_electronics_d_sccl_19/703-5442858-9171156?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/317eB4+yU6L._AC_UL300_SR300,200_.jpg",
-      "days_seen": 3,
-      "days_tracked": 7,
-      "avg_rank": 26.0,
+      "avg_rank": 21.7,
       "latest_price": null
     },
     {
@@ -1442,7 +1403,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/713xJZLY0EL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 26.7,
+      "avg_rank": 27.0,
       "latest_price": null
     },
     {
