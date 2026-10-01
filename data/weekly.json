@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:15:31.594860+00:00",
+  "generated_at": "2026-10-01T18:19:43.647993+00:00",
   "days_tracked": 7,
   "products": [
     {
@@ -12,7 +12,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61KvmBcXufL._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 2.0,
+      "avg_rank": 2.1,
       "latest_price": null
     },
     {
@@ -25,7 +25,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61g9ahLRbDL._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 4.7,
+      "avg_rank": 4.9,
       "latest_price": null
     },
     {
@@ -38,7 +38,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61Ib2BrohxL._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 5.6,
+      "avg_rank": 5.4,
       "latest_price": null
     },
     {
@@ -51,7 +51,20 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71Sq4lmCJRL._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 7.4,
+      "avg_rank": 7.3,
+      "latest_price": null
+    },
+    {
+      "title": "Duracell Alkaline AA Batteries, Pack of 20, 1.5V, Everyday Devices, Radio, Remote, Toy",
+      "source": "amazon.sa",
+      "category": "All / Electronics",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Duracell-Alkaline-Batteries-Everyday-Devices/dp/B09HXG3J7P/ref=zg_bs_g_electronics_d_sccl_14/702-1982677-4296644?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71mKFYJPiVL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 7,
+      "days_tracked": 7,
+      "avg_rank": 10.3,
       "latest_price": null
     },
     {
@@ -77,20 +90,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51gTedXnWHL._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 10.6,
-      "latest_price": null
-    },
-    {
-      "title": "Duracell Alkaline AA Batteries, Pack of 20, 1.5V, Everyday Devices, Radio, Remote, Toy",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Duracell-Alkaline-Batteries-Everyday-Devices/dp/B09HXG3J7P/ref=zg_bs_g_electronics_d_sccl_14/702-1982677-4296644?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71mKFYJPiVL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 7,
-      "days_tracked": 7,
-      "avg_rank": 10.9,
+      "avg_rank": 11.0,
       "latest_price": null
     },
     {
@@ -103,7 +103,20 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71IE9dLBduL._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 13.9,
+      "avg_rank": 13.4,
+      "latest_price": null
+    },
+    {
+      "title": "alfanar 13A Cord Extension 3 Sockets 3 Meters with Overload protection for more safety",
+      "source": "amazon.sa",
+      "category": "All / Electronics",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/alfanar-Extension-Sockets-Overload-protection/dp/B09X5J7R6T/ref=zg_bs_g_electronics_d_sccl_17/702-1982677-4296644?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51cMOyiK16L._AC_UL300_SR300,200_.jpg",
+      "days_seen": 7,
+      "days_tracked": 7,
+      "avg_rank": 14.1,
       "latest_price": null
     },
     {
@@ -120,19 +133,6 @@
       "latest_price": null
     },
     {
-      "title": "alfanar 13A Cord Extension 3 Sockets 3 Meters with Overload protection for more safety",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/alfanar-Extension-Sockets-Overload-protection/dp/B09X5J7R6T/ref=zg_bs_g_electronics_d_sccl_17/702-1982677-4296644?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51cMOyiK16L._AC_UL300_SR300,200_.jpg",
-      "days_seen": 7,
-      "days_tracked": 7,
-      "avg_rank": 14.3,
-      "latest_price": null
-    },
-    {
       "title": "UGREEN Nexode 65W Charger Type C, GaN Fast Charge Plug with Foldable Prong | USB-C 3-Port Charging Adapter Compact Laptop Power Compatible for iPhone 18 Pro Max, Galaxy S25 Ultra, iPad, MacBook Air",
       "source": "amazon.sa",
       "category": "All / Electronics",
@@ -142,7 +142,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51sTKoB2WKL._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 17.9,
+      "avg_rank": 17.6,
       "latest_price": null
     },
     {
@@ -155,7 +155,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61iB-a5cJ2L._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 18.0,
+      "avg_rank": 18.4,
       "latest_price": null
     },
     {
@@ -168,7 +168,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51+e7-JlQ4L._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 19.3,
+      "avg_rank": 19.7,
       "latest_price": null
     },
     {
@@ -181,7 +181,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51+qzpA7y+L._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 21.3,
+      "avg_rank": 21.1,
       "latest_price": null
     },
     {
@@ -194,7 +194,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/41T7p5mdrhL._AC_UL300_SR300,200_.jpg",
       "days_seen": 7,
       "days_tracked": 7,
-      "avg_rank": 21.4,
+      "avg_rank": 21.3,
       "latest_price": null
     },
     {
@@ -211,19 +211,6 @@
       "latest_price": null
     },
     {
-      "title": "Sandisk Ultra 64Gb Microsdxc Uhs-1 Card 100Mb/S Sdsqunr-064G-Gn3Mn",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Sandisk-Ultra-Microsdxc-Uhs-1-Sdsqunr-064G-Gn3Mn/dp/B08HYFSXKW/ref=zg_bs_g_electronics_d_sccl_27/702-1982677-4296644?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61MrLrMrdUL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 7,
-      "days_tracked": 7,
-      "avg_rank": 24.7,
-      "latest_price": 70.88
-    },
-    {
       "title": "Nestlé Pure Life Bottled Still Drinking Water - 12 X 1.5 Ltr",
       "source": "amazon.sa",
       "category": "All / Grocery",
@@ -234,19 +221,6 @@
       "days_seen": 6,
       "days_tracked": 7,
       "avg_rank": 1.0,
-      "latest_price": null
-    },
-    {
-      "title": "Uriage Eu Thermale Power 3 Deodorant Roll-On - Anti-Odors, Anti-Perspirant -24H Efficacy for Profuse Sweating, Fresh Fragrance, Unisex, Dry Touch, No White Marks, No Yellow Stains, Alcohol-Free, 50ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Uriage-Thermale-Power-Deodorant-Roll/dp/B01CKN68JQ/ref=zg_bs_g_beauty_d_sccl_1/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61dKMNYBccL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 1.5,
       "latest_price": null
     },
     {
@@ -298,8 +272,8 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71ACLvSm3+L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 3.0,
-      "latest_price": 18.99
+      "avg_rank": 3.5,
+      "latest_price": 54.0
     },
     {
       "title": "Berain Water Bottle - Size 40×330 ml",
@@ -328,32 +302,6 @@
       "latest_price": null
     },
     {
-      "title": "Johnson's Adult Makeup Remover Pads, 100% Pure Natural Cotton, Soft and Fibre-Free, Pack of 3 x 80",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Johnsons-Makeup-Remover-Natural-Fibre-Free/dp/B07N77NM82/ref=zg_bs_g_beauty_d_sccl_6/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71sK+wbNc+L._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 4.5,
-      "latest_price": null
-    },
-    {
-      "title": "Lux Opulent Fragrance Body Wash, NEW Magical Orchid, 30H Long-Lasting Scent, with Everscent Essential Oil, 700ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Opulent-Fragrance-Long-Lasting-Everscent-Essential/dp/B07P67Q998/ref=zg_bs_g_beauty_d_sccl_11/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71MxcSBsF5L._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 4.7,
-      "latest_price": null
-    },
-    {
       "title": "Intex 59030 Beach Ball 24 Inch",
       "source": "amazon.sa",
       "category": "All / Toys",
@@ -363,20 +311,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/41EoaHlEaaL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 5.0,
-      "latest_price": null
-    },
-    {
-      "title": "L'Oreal Paris Elvive Extraordinary Oil Sublime Enhancer Serum for Very Dry Hair, 100ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/LOreal-Paris-Extraordinary-Sublime-Enhancer/dp/B07MTYJXLS/ref=zg_bs_g_beauty_d_sccl_5/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/511R1bI-0hL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 5.3,
+      "avg_rank": 5.2,
       "latest_price": null
     },
     {
@@ -402,47 +337,8 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61I7cBTfzhL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 5.8,
+      "avg_rank": 6.0,
       "latest_price": null
-    },
-    {
-      "title": "Eucerin Face Sunscreen Oil Control Gel-Cream Dry Touch, High UVA/UVB, SPF 50+, Light Texture Sun Protection, Suitable Under Make-Up, for Blemish-Prone Skin, 50ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Eucerin-Sunscreen-Gel-Cream-Protection-Blemish-Prone/dp/B07MW1NPXJ/ref=zg_bs_g_beauty_d_sccl_3/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61Xo4L47YrL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 6.3,
-      "latest_price": null
-    },
-    {
-      "title": "QV Cream 500g Pump, with Glycerin - Rich, Protective Moisturiser for Dry to Very Dry, Sensitive Skin - Fragrance-Free, Non-Comedogenic For Body & Face, 24 H moisturisatioin.",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/QV-Cream-500g-Pump-Glycerin/dp/B01AVQUFUW/ref=zg_bs_g_beauty_d_sccl_4/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/610Xljq-IbL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 6.3,
-      "latest_price": null
-    },
-    {
-      "title": "Garnier Ultra Doux Avocado Oil & Shea Butter Nourishing Shampoo For Very Dry & Frizzy Hair - 1000 ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Garnier-Avocado-Butter-Nourishing-Shampoo/dp/B0CM9Z3SQC/ref=zg_bs_g_beauty_d_sccl_9/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51k1B2Yz9XL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 6.8,
-      "latest_price": 18.77
     },
     {
       "title": "620",
@@ -458,16 +354,16 @@
       "latest_price": null
     },
     {
-      "title": "Gemmicc Magnetic Tiles, Deluxe 136 PCS Building Blocks Magnet Toys for Kids,3D Magnet Puzzles Stacking Blocks for Boys Girls,Huge Set with 2 Cars",
+      "title": "240",
       "source": "amazon.sa",
-      "category": "All / Toys",
+      "category": "All / Grocery",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Gemmicc-Magnetic-Building-Puzzles-Stacking/dp/B0BLBXY6JV/ref=zg_bs_g_toys_d_sccl_5/703-4185640-0753364?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/91Xc3eoLhmL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Almarai-Full-Fresh-Milk-Liter/dp/B0DWX9K4N9/ref=zg_bs_g_grocery_d_sccl_9/703-8254113-9952347?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/710rcU5y-8L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 7.2,
+      "avg_rank": 7.0,
       "latest_price": null
     },
     {
@@ -480,59 +376,20 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71Isw5v2pvL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 7.3,
+      "avg_rank": 7.7,
       "latest_price": null
     },
     {
-      "title": "240",
+      "title": "Gemmicc Magnetic Tiles, Deluxe 136 PCS Building Blocks Magnet Toys for Kids,3D Magnet Puzzles Stacking Blocks for Boys Girls,Huge Set with 2 Cars",
       "source": "amazon.sa",
-      "category": "All / Grocery",
+      "category": "All / Toys",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Almarai-Full-Fresh-Milk-Liter/dp/B0DWX9K4N9/ref=zg_bs_g_grocery_d_sccl_9/703-8254113-9952347?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/710rcU5y-8L._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Gemmicc-Magnetic-Building-Puzzles-Stacking/dp/B0BLBXY6JV/ref=zg_bs_g_toys_d_sccl_5/703-4185640-0753364?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/91Xc3eoLhmL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 7.5,
-      "latest_price": null
-    },
-    {
-      "title": "Dove Moisturising Soap Bar Nourishing Formula for All Skin Types, Pink with ¼ Moisturising Cream, 125g - Pack of 4",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/Dove-Moisturising-Nourishing-Formula-Types/dp/B07P83MJFM/ref=zg_bs_g_beauty_d_sccl_7/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61fHAR68gOL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 8.3,
-      "latest_price": null
-    },
-    {
-      "title": "Dermoviva Age Renewal Hand Wash 3 x 200 ml | Rejuvenates Ageing Skin | With Chamomile & Nettle Extracts",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Dermoviva-Renewal-Rejuvenates-Chamomile-Extracts/dp/B08Y9V8TFM/ref=zg_bs_g_beauty_d_sccl_12/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71japyUCFrL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 8.3,
-      "latest_price": null
-    },
-    {
-      "title": "Cetaphil Face & Body Moisturising Cream for Men & Women, Dry to Very Dry Sensitive Skin, Non-Comedogenic, With Niacinamide & Vitamin B5, Unscented, 453g",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Cetaphil-Moisturising-Sensitive-Non-Comedogenic-Niacinamide/dp/B09WJ7D9SP/ref=zg_bs_g_beauty_d_sccl_10/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/610LRtrk4lL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 8.5,
+      "avg_rank": 8.0,
       "latest_price": null
     },
     {
@@ -545,7 +402,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71c3mbNsShL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 9.0,
+      "avg_rank": 8.3,
       "latest_price": null
     },
     {
@@ -558,7 +415,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/713MYP-S1UL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 9.8,
+      "avg_rank": 9.0,
       "latest_price": null
     },
     {
@@ -571,7 +428,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/713x7uDPl8L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 11.2,
+      "avg_rank": 12.2,
       "latest_price": null
     },
     {
@@ -588,19 +445,6 @@
       "latest_price": null
     },
     {
-      "title": "Mustela Gentle Cleansing Gel - Baby Hair & Body Wash - with Natural Avocado fortified with Vitamin B5 - Biodegradable Formula & Tear-Free -500ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Mustela-Gentle-Cleansing-Gel-Biodegradable/dp/B01MFDIAQM/ref=zg_bs_g_beauty_d_sccl_14/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51+Yy-QnlnL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 14.2,
-      "latest_price": null
-    },
-    {
       "title": "50 BALLS multi colorTents",
       "source": "amazon.sa",
       "category": "All / Toys",
@@ -610,33 +454,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71SpB2aOfpL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 14.2,
-      "latest_price": null
-    },
-    {
-      "title": "VASELINE Moisturizing Petroleum Jelly, for dry skin, Original, to heal skin damage, 450ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/VASELINE-Moisturizing-Petroleum-Original-damage/dp/B07NWYSPHY/ref=zg_bs_g_beauty_d_sccl_16/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71am9YEelHL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 14.5,
-      "latest_price": null
-    },
-    {
-      "title": "DOVE Antiperspirant Deodorant Stick, Powder Soft, 40 g",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/DOVE-Antiperspirant-Deodorant-Stick-Powder/dp/B07NDNRXBV/ref=zg_bs_g_beauty_d_sccl_17/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61o-Fax2OhL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 14.7,
+      "avg_rank": 14.0,
       "latest_price": null
     },
     {
@@ -649,20 +467,20 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/81Q7GtEiP8L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 16.8,
+      "avg_rank": 16.7,
       "latest_price": null
     },
     {
-      "title": "MAYBELLINE New York Super Stay Vinyl Ink Longwear Transfer Proof Gloss Lipstick, 35 CHEEKY",
+      "title": "Al Shalan Punjabi Super Rice - White Basmati Rice 10Kg",
       "source": "amazon.sa",
-      "category": "All / Beauty",
+      "category": "All / Grocery",
       "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/MAYBELLINE-Longwear-Transfer-Lipstick-CHEEKY/dp/B09NQG78ND/ref=zg_bs_g_beauty_d_sccl_15/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/41N7HjR5xJL._AC_UL300_SR300,200_.jpg",
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Al-Shalan-Punjabi-Super-Rice/dp/B09VNQKJG4/ref=zg_bs_g_grocery_d_sccl_13/703-8254113-9952347?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61moMhzPsvL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 17.2,
+      "avg_rank": 17.7,
       "latest_price": null
     },
     {
@@ -679,43 +497,17 @@
       "latest_price": null
     },
     {
-      "title": "Al Shalan Punjabi Super Rice - White Basmati Rice 10Kg",
+      "title": "Berain 48*200 ml Carton",
       "source": "amazon.sa",
       "category": "All / Grocery",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Al-Shalan-Punjabi-Super-Rice/dp/B09VNQKJG4/ref=zg_bs_g_grocery_d_sccl_13/703-8254113-9952347?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61moMhzPsvL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Berain-48-200-ml-Carton/dp/B0871TDVT9/ref=zg_bs_g_grocery_d_sccl_11/703-8254113-9952347?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61GS83gC6VL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 17.8,
-      "latest_price": null
-    },
-    {
-      "title": "LIFEBUOY Antibacterial Body Wash, Total 10, for 100% stronger germ protection and hygiene, 700ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/LIFEBUOY-Antibacterial-stronger-protection-hygiene/dp/B08YFZ1TY3/ref=zg_bs_g_beauty_d_sccl_21/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61pbMWPMsRL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 18.0,
-      "latest_price": null
-    },
-    {
-      "title": "Beesline Roll On Deodorant Fragrance Free 2x50ML (1+1 Free)",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Beesline-Roll-Deodorant-Fragrance-2x50ML/dp/B0BWFKN8FJ/ref=zg_bs_g_beauty_d_sccl_20/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61TCPK-yYHL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 18.3,
-      "latest_price": null
+      "avg_rank": 18.2,
+      "latest_price": 44.95
     },
     {
       "title": "Gemmicc Magnetic Tiles, 126 PCS + Storage Case, STEM Building Blocks Magnet Toys for Kids,Educational Building Toy Stacking Blocks for Boys Girls,Huge Set with 2 Cars",
@@ -727,34 +519,8 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/814ZEfiOiAL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 18.3,
+      "avg_rank": 18.8,
       "latest_price": null
-    },
-    {
-      "title": "NIVEA Body Lotion for Dry to Very Dry Skin, Rich Nourishing with 100% Pure Hyaluron, 72H Intense Moisture, 3x400ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/NIVEA-Nourishing-Hyaluron-Intense-Moisture/dp/B0B3Y5BSJ5/ref=zg_bs_g_beauty_d_sccl_19/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71l5jbdbgGL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 18.5,
-      "latest_price": null
-    },
-    {
-      "title": "Berain 48*200 ml Carton",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Berain-48-200-ml-Carton/dp/B0871TDVT9/ref=zg_bs_g_grocery_d_sccl_11/703-8254113-9952347?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61GS83gC6VL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 18.7,
-      "latest_price": 44.95
     },
     {
       "title": "242",
@@ -766,7 +532,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61327vcNSnL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 19.7,
+      "avg_rank": 19.8,
       "latest_price": null
     },
     {
@@ -779,7 +545,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71DNLRPwu8L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 20.0,
+      "avg_rank": 20.2,
       "latest_price": null
     },
     {
@@ -792,85 +558,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71-oDX-MHFL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 20.0,
-      "latest_price": null
-    },
-    {
-      "title": "Garnier Ultra Doux Rice Water Shampoo, 400 ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Garnier-Ultra-Doux-Water-Shampoo/dp/B0DB8KCXDS/ref=zg_bs_g_beauty_d_sccl_22/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51lwsfx3eBL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 21.0,
-      "latest_price": null
-    },
-    {
-      "title": "L'Oreal Paris Volume Million Lashes Panorama Mascara in Black, 9.9 ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/LOreal-Paris-Million-Panorama-Mascara/dp/B0CJ5GW8RY/ref=zg_bs_g_beauty_d_sccl_13/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/41PyHjlNU2L._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 21.2,
-      "latest_price": 43.3
-    },
-    {
-      "title": "LIFEBUOY Hand Wash, Total 10, for 100 percent stronger germ protection in 10 seconds, 200ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/LIFEBUOY-percent-stronger-protection-seconds/dp/B07NF74H3B/ref=zg_bs_g_beauty_d_sccl_24/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61klMwXJPbL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 22.3,
-      "latest_price": null
-    },
-    {
-      "title": "Neutrogena Face Moisturizer Water Gel, Hydro Boost, Normal to Combination Skin, Lightweight and Oil & Alcohol-Free, Suitable for Sensitive Skin, 50ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Neutrogena-Moisturizer-Combination-Lightweight-Alcohol-Free/dp/B07MTX97N7/ref=zg_bs_g_beauty_d_sccl_18/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71I-3LRnamL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 23.3,
-      "latest_price": null
-    },
-    {
-      "title": "Abu Kass Indian Mazza Basmati Rice 10 Kg",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Abu-Kass-Indian-Mazza-Basmati/dp/B08L1ZXBPS/ref=zg_bs_g_grocery_d_sccl_27/703-8254113-9952347?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71jFlOUrVsL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 23.7,
-      "latest_price": 72.98
-    },
-    {
-      "title": "L’Oreal Paris Elvive Glycolic Gloss Shampoo, 3% Gloss Complex with [Glycolic Acid], 400 ml",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/LOreal-Paris-Glycolic-Shampoo-Complex/dp/B0F83MZK2Y/ref=zg_bs_g_beauty_d_sccl_25/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/41nriayKPgL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 6,
-      "days_tracked": 7,
-      "avg_rank": 24.2,
+      "avg_rank": 20.3,
       "latest_price": null
     },
     {
@@ -883,21 +571,21 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71AlntCE7OL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 24.5,
+      "avg_rank": 24.0,
       "latest_price": null
     },
     {
-      "title": "NIVEA Body Lotion Dry Skin, Cocoa Butter Vitamin E, 3x400ml",
+      "title": "Sandisk Ultra 64Gb Microsdxc Uhs-1 Card 100Mb/S Sdsqunr-064G-Gn3Mn",
       "source": "amazon.sa",
-      "category": "All / Beauty",
+      "category": "All / Electronics",
       "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/NIVEA-Lotion-Butter-Vitamin-3x400ml/dp/B0BC8X45ST/ref=zg_bs_g_beauty_d_sccl_23/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71ydk7ZEneL._AC_UL300_SR300,200_.jpg",
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Sandisk-Ultra-Microsdxc-Uhs-1-Sdsqunr-064G-Gn3Mn/dp/B08HYFSXKW/ref=zg_bs_g_electronics_d_sccl_27/702-1982677-4296644?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61MrLrMrdUL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 25.2,
-      "latest_price": null
+      "avg_rank": 24.3,
+      "latest_price": 70.88
     },
     {
       "title": "JETech Screen Protector for iPhone 18 Pro/17 Pro, 3-Pack | 9H Tempered Glass, HD Clear, Anti-Scratch Protection, Easy Installation Tool",
@@ -909,7 +597,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71B-II4K+aL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 25.3,
+      "avg_rank": 24.7,
       "latest_price": null
     },
     {
@@ -922,7 +610,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71fU3wMVebL._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 25.5,
+      "avg_rank": 25.7,
       "latest_price": null
     },
     {
@@ -935,7 +623,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/317eB4+yU6L._AC_UL300_SR300,200_.jpg",
       "days_seen": 6,
       "days_tracked": 7,
-      "avg_rank": 26.0,
+      "avg_rank": 26.2,
       "latest_price": null
     },
     {
@@ -952,6 +640,19 @@
       "latest_price": null
     },
     {
+      "title": "Uriage Eu Thermale Power 3 Deodorant Roll-On - Anti-Odors, Anti-Perspirant -24H Efficacy for Profuse Sweating, Fresh Fragrance, Unisex, Dry Touch, No White Marks, No Yellow Stains, Alcohol-Free, 50ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Uriage-Thermale-Power-Deodorant-Roll/dp/B01CKN68JQ/ref=zg_bs_g_beauty_d_sccl_1/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61dKMNYBccL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 1.4,
+      "latest_price": null
+    },
+    {
       "title": "UGREEN Type C Cable 2M, 100W Laptop Compatible USB C Fast Charging Cable | 100W laptop&phones fast charging, high speed data transfer,Durable nylon braided usb c cable,Aluminum Alloy",
       "source": "amazon.sa",
       "category": "All / Electronics",
@@ -962,6 +663,97 @@
       "days_seen": 5,
       "days_tracked": 7,
       "avg_rank": 3.4,
+      "latest_price": null
+    },
+    {
+      "title": "Johnson's Adult Makeup Remover Pads, 100% Pure Natural Cotton, Soft and Fibre-Free, Pack of 3 x 80",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Johnsons-Makeup-Remover-Natural-Fibre-Free/dp/B07N77NM82/ref=zg_bs_g_beauty_d_sccl_6/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71sK+wbNc+L._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 4.6,
+      "latest_price": null
+    },
+    {
+      "title": "Lux Opulent Fragrance Body Wash, NEW Magical Orchid, 30H Long-Lasting Scent, with Everscent Essential Oil, 700ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Opulent-Fragrance-Long-Lasting-Everscent-Essential/dp/B07P67Q998/ref=zg_bs_g_beauty_d_sccl_11/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71MxcSBsF5L._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 5.0,
+      "latest_price": null
+    },
+    {
+      "title": "QV Cream 500g Pump, with Glycerin - Rich, Protective Moisturiser for Dry to Very Dry, Sensitive Skin - Fragrance-Free, Non-Comedogenic For Body & Face, 24 H moisturisatioin.",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/QV-Cream-500g-Pump-Glycerin/dp/B01AVQUFUW/ref=zg_bs_g_beauty_d_sccl_4/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/610Xljq-IbL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 5.2,
+      "latest_price": null
+    },
+    {
+      "title": "L'Oreal Paris Elvive Extraordinary Oil Sublime Enhancer Serum for Very Dry Hair, 100ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/LOreal-Paris-Extraordinary-Sublime-Enhancer/dp/B07MTYJXLS/ref=zg_bs_g_beauty_d_sccl_5/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/511R1bI-0hL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 5.4,
+      "latest_price": null
+    },
+    {
+      "title": "Eucerin Face Sunscreen Oil Control Gel-Cream Dry Touch, High UVA/UVB, SPF 50+, Light Texture Sun Protection, Suitable Under Make-Up, for Blemish-Prone Skin, 50ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Eucerin-Sunscreen-Gel-Cream-Protection-Blemish-Prone/dp/B07MW1NPXJ/ref=zg_bs_g_beauty_d_sccl_3/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61Xo4L47YrL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 5.6,
+      "latest_price": null
+    },
+    {
+      "title": "Garnier Ultra Doux Avocado Oil & Shea Butter Nourishing Shampoo For Very Dry & Frizzy Hair - 1000 ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Garnier-Avocado-Butter-Nourishing-Shampoo/dp/B0CM9Z3SQC/ref=zg_bs_g_beauty_d_sccl_9/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51k1B2Yz9XL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 8.0,
+      "latest_price": 20.99
+    },
+    {
+      "title": "Dove Moisturising Soap Bar Nourishing Formula for All Skin Types, Pink with ¼ Moisturising Cream, 125g - Pack of 4",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/Dove-Moisturising-Nourishing-Formula-Types/dp/B07P83MJFM/ref=zg_bs_g_beauty_d_sccl_7/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61fHAR68gOL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 8.4,
       "latest_price": null
     },
     {
@@ -978,29 +770,29 @@
       "latest_price": null
     },
     {
-      "title": "Al Batal Butter Popcorn, 10 X 23g - Pack of 1",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Al-Batal-Butter-Popcorn-23g/dp/B0949GSKT1/ref=zg_bs_g_grocery_d_sccl_8/703-8254113-9952347?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/81wTuLcINyL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 9.2,
-      "latest_price": null
-    },
-    {
-      "title": "Garnier SkinActive Micellar Cleansing Water Classic, Soothing & Detoxifying, for Sensitive Skin, 400ml",
+      "title": "Dermoviva Age Renewal Hand Wash 3 x 200 ml | Rejuvenates Ageing Skin | With Chamomile & Nettle Extracts",
       "source": "amazon.sa",
       "category": "All / Beauty",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Garnier-SkinActive-Cleansing-Detoxifying-Sensitive/dp/B07BXZSCRL/ref=zg_bs_g_beauty_d_sccl_9/702-8157832-5784963?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51P5q2FvAhL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Dermoviva-Renewal-Rejuvenates-Chamomile-Extracts/dp/B08Y9V8TFM/ref=zg_bs_g_beauty_d_sccl_12/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71japyUCFrL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 9.6,
+      "avg_rank": 8.6,
+      "latest_price": null
+    },
+    {
+      "title": "Cetaphil Face & Body Moisturising Cream for Men & Women, Dry to Very Dry Sensitive Skin, Non-Comedogenic, With Niacinamide & Vitamin B5, Unscented, 453g",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Cetaphil-Moisturising-Sensitive-Non-Comedogenic-Niacinamide/dp/B09WJ7D9SP/ref=zg_bs_g_beauty_d_sccl_10/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/610LRtrk4lL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 9.0,
       "latest_price": null
     },
     {
@@ -1013,7 +805,59 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/514nAjlEdoL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 9.8,
+      "avg_rank": 9.6,
+      "latest_price": null
+    },
+    {
+      "title": "Al Batal Butter Popcorn, 10 X 23g - Pack of 1",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Al-Batal-Butter-Popcorn-23g/dp/B0949GSKT1/ref=zg_bs_g_grocery_d_sccl_8/703-8254113-9952347?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81wTuLcINyL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 10.0,
+      "latest_price": null
+    },
+    {
+      "title": "Mustela Gentle Cleansing Gel - Baby Hair & Body Wash - with Natural Avocado fortified with Vitamin B5 - Biodegradable Formula & Tear-Free -500ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Mustela-Gentle-Cleansing-Gel-Biodegradable/dp/B01MFDIAQM/ref=zg_bs_g_beauty_d_sccl_14/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51+Yy-QnlnL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 13.8,
+      "latest_price": null
+    },
+    {
+      "title": "VASELINE Moisturizing Petroleum Jelly, for dry skin, Original, to heal skin damage, 450ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/VASELINE-Moisturizing-Petroleum-Original-damage/dp/B07NWYSPHY/ref=zg_bs_g_beauty_d_sccl_16/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71am9YEelHL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 14.6,
+      "latest_price": null
+    },
+    {
+      "title": "DOVE Antiperspirant Deodorant Stick, Powder Soft, 40 g",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/DOVE-Antiperspirant-Deodorant-Stick-Powder/dp/B07NDNRXBV/ref=zg_bs_g_beauty_d_sccl_17/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61o-Fax2OhL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 15.0,
       "latest_price": null
     },
     {
@@ -1026,7 +870,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71BXzf8H9oL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 16.6,
+      "avg_rank": 16.4,
       "latest_price": null
     },
     {
@@ -1039,20 +883,111 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71jDxrwQP-L._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 17.0,
+      "avg_rank": 16.6,
       "latest_price": 59.99
     },
     {
-      "title": "KUANGO Black and White High Contrast Tummy Time Mirror Toys Newborn Toys 0 6 Months Brain Development Infant Stimulating Sensory Baby Mirror Flash Card Book 0-3 3-6 Months Old Baby Boy Girl Gifts",
+      "title": "MAYBELLINE New York Super Stay Vinyl Ink Longwear Transfer Proof Gloss Lipstick, 35 CHEEKY",
       "source": "amazon.sa",
-      "category": "All / Toys",
+      "category": "All / Beauty",
       "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/KUANGO-Contrast-Newborn-Development-Stimulating/dp/B0FQBVGWKF/ref=zg_bs_g_toys_d_sccl_22/704-6652704-4415468?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71Zb3EzoGtL._AC_UL300_SR300,200_.jpg",
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/MAYBELLINE-Longwear-Transfer-Lipstick-CHEEKY/dp/B09NQG78ND/ref=zg_bs_g_beauty_d_sccl_15/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/41N7HjR5xJL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 20.8,
+      "avg_rank": 17.0,
+      "latest_price": null
+    },
+    {
+      "title": "Beesline Roll On Deodorant Fragrance Free 2x50ML (1+1 Free)",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Beesline-Roll-Deodorant-Fragrance-2x50ML/dp/B0BWFKN8FJ/ref=zg_bs_g_beauty_d_sccl_20/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61TCPK-yYHL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 18.2,
+      "latest_price": null
+    },
+    {
+      "title": "LIFEBUOY Antibacterial Body Wash, Total 10, for 100% stronger germ protection and hygiene, 700ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/LIFEBUOY-Antibacterial-stronger-protection-hygiene/dp/B08YFZ1TY3/ref=zg_bs_g_beauty_d_sccl_21/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61pbMWPMsRL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 18.2,
+      "latest_price": null
+    },
+    {
+      "title": "NIVEA Body Lotion for Dry to Very Dry Skin, Rich Nourishing with 100% Pure Hyaluron, 72H Intense Moisture, 3x400ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/NIVEA-Nourishing-Hyaluron-Intense-Moisture/dp/B0B3Y5BSJ5/ref=zg_bs_g_beauty_d_sccl_19/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71l5jbdbgGL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 19.2,
+      "latest_price": null
+    },
+    {
+      "title": "L'Oreal Paris Volume Million Lashes Panorama Mascara in Black, 9.9 ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/LOreal-Paris-Million-Panorama-Mascara/dp/B0CJ5GW8RY/ref=zg_bs_g_beauty_d_sccl_13/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/41PyHjlNU2L._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 20.6,
+      "latest_price": null
+    },
+    {
+      "title": "Garnier Ultra Doux Rice Water Shampoo, 400 ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Garnier-Ultra-Doux-Water-Shampoo/dp/B0DB8KCXDS/ref=zg_bs_g_beauty_d_sccl_22/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51lwsfx3eBL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 21.2,
+      "latest_price": null
+    },
+    {
+      "title": "Neutrogena Face Moisturizer Water Gel, Hydro Boost, Normal to Combination Skin, Lightweight and Oil & Alcohol-Free, Suitable for Sensitive Skin, 50ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Neutrogena-Moisturizer-Combination-Lightweight-Alcohol-Free/dp/B07MTX97N7/ref=zg_bs_g_beauty_d_sccl_18/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71I-3LRnamL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 22.6,
+      "latest_price": null
+    },
+    {
+      "title": "LIFEBUOY Hand Wash, Total 10, for 100 percent stronger germ protection in 10 seconds, 200ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/LIFEBUOY-percent-stronger-protection-seconds/dp/B07NF74H3B/ref=zg_bs_g_beauty_d_sccl_24/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61klMwXJPbL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 22.6,
       "latest_price": null
     },
     {
@@ -1065,8 +1000,21 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/510iBy8TqwL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 23.2,
+      "avg_rank": 23.4,
       "latest_price": null
+    },
+    {
+      "title": "Abu Kass Indian Mazza Basmati Rice 10 Kg",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Abu-Kass-Indian-Mazza-Basmati/dp/B08L1ZXBPS/ref=zg_bs_g_grocery_d_sccl_27/703-8254113-9952347?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71jFlOUrVsL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 5,
+      "days_tracked": 7,
+      "avg_rank": 23.6,
+      "latest_price": 72.98
     },
     {
       "title": "Lipton Yellow Label Black Tea, 100 Bags - Pack Of 1",
@@ -1078,46 +1026,33 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/715fM6i1xFL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 23.8,
+      "avg_rank": 24.2,
       "latest_price": null
     },
     {
-      "title": "Johnson's Body Wash Vita-Rich, 250ml, Replenishing Raspberry Extract, Enriched with the goodness of wild berries, raspberry extract and moisturizing glycerin",
+      "title": "L’Oreal Paris Elvive Glycolic Gloss Shampoo, 3% Gloss Complex with [Glycolic Acid], 400 ml",
       "source": "amazon.sa",
       "category": "All / Beauty",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Vita-Rich-Replenishing-Raspberry-raspberry-moisturizing/dp/B07G2QZ945/ref=zg_bs_g_beauty_d_sccl_27/702-8157832-5784963?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71aZCibVLOL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/LOreal-Paris-Glycolic-Shampoo-Complex/dp/B0F83MZK2Y/ref=zg_bs_g_beauty_d_sccl_25/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/41nriayKPgL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 24.0,
-      "latest_price": 13.27
-    },
-    {
-      "title": "Pantene Pro-V Daily Care 2-in-1 Shampoo for Clean Hair, 1L",
-      "source": "amazon.sa",
-      "category": "All / Beauty",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Pantene-Pro-V-Daily-Shampoo-Clean/dp/B07MTX2HV4/ref=zg_bs_g_beauty_d_sccl_26/702-3792365-5419144?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61bRP0-BHFL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 5,
-      "days_tracked": 7,
-      "avg_rank": 24.6,
+      "avg_rank": 24.4,
       "latest_price": null
     },
     {
-      "title": "YLL Karaoke Machine for Kids Adults, Portable Mini Bluetooth Speaker with Wireless Microphone, Most Popular Birthday Gifts Toys for Girls 3, 4, 5, 6, 7, 8, 9, 10, 11, 12+Year Old (lightpink)",
+      "title": "NIVEA Body Lotion Dry Skin, Cocoa Butter Vitamin E, 3x400ml",
       "source": "amazon.sa",
-      "category": "All / Toys",
+      "category": "All / Beauty",
       "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/YLL-Portable-Bluetooth-Microphone-lightpink/dp/B09XV7SYN2/ref=zg_bs_g_toys_d_sccl_24/704-6652704-4415468?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/81lnrWWei4L._AC_UL300_SR300,200_.jpg",
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/NIVEA-Lotion-Butter-Vitamin-3x400ml/dp/B0BC8X45ST/ref=zg_bs_g_beauty_d_sccl_23/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71ydk7ZEneL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 27.6,
+      "avg_rank": 25.2,
       "latest_price": null
     },
     {
@@ -1130,7 +1065,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/613cG3k4ZPL._AC_UL300_SR300,200_.jpg",
       "days_seen": 5,
       "days_tracked": 7,
-      "avg_rank": 27.8,
+      "avg_rank": 28.0,
       "latest_price": null
     },
     {
@@ -1147,19 +1082,6 @@
       "latest_price": null
     },
     {
-      "title": "Nadec Full Fat Long Life Milk, 12 x 1 Liter",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Nadec-Full-Long-Life-Liter/dp/B086CLM1PM/ref=zg_bs_g_grocery_d_sccl_5/704-0656789-2142527?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/812e47tr7aL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 4,
-      "days_tracked": 7,
-      "avg_rank": 6.5,
-      "latest_price": null
-    },
-    {
       "title": "LUX Perfumed Liquid Hand Wash, Velvet Jasmine, with Almond Oil & Glycerin, for Fragrant, Soft and Clean Hands, 250ml",
       "source": "amazon.sa",
       "category": "All / Beauty",
@@ -1173,16 +1095,29 @@
       "latest_price": null
     },
     {
-      "title": "Neelabil 36 Colors Plasticine DIY Plasticine for Children Education Super Light Air Dry Clay Multi-color Modelling Clay Interactive Toy",
+      "title": "Nadec Full Fat Long Life Milk, 12 x 1 Liter",
       "source": "amazon.sa",
-      "category": "All / Toys",
+      "category": "All / Grocery",
       "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/Neelabil-Plasticine-Education-Multi-color-Interactive/dp/B0C7R8PY6F/ref=zg_bs_g_toys_d_sccl_14/704-8082870-7454627?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61kbZ2PkhaL._AC_UL300_SR300,200_.jpg",
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Nadec-Full-Long-Life-Liter/dp/B086CLM1PM/ref=zg_bs_g_grocery_d_sccl_5/704-0656789-2142527?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/812e47tr7aL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 12.8,
+      "avg_rank": 7.2,
+      "latest_price": null
+    },
+    {
+      "title": "Garnier SkinActive Micellar Cleansing Water Classic, Soothing & Detoxifying, for Sensitive Skin, 400ml",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Garnier-SkinActive-Cleansing-Detoxifying-Sensitive/dp/B07BXZSCRL/ref=zg_bs_g_beauty_d_sccl_9/702-8157832-5784963?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51P5q2FvAhL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 9.8,
       "latest_price": null
     },
     {
@@ -1199,16 +1134,16 @@
       "latest_price": null
     },
     {
-      "title": "Montessori Toys for 1 to 3-Year-Old Boys Girls Toddlers, Wooden Sorting & Stacking Toys for Toddlers and Kids Preschool, Educational Toys, Color Recognition Stacker Shape Sorter, Learning Puzzles Gift",
+      "title": "Neelabil 36 Colors Plasticine DIY Plasticine for Children Education Super Light Air Dry Clay Multi-color Modelling Clay Interactive Toy",
       "source": "amazon.sa",
       "category": "All / Toys",
       "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Montessori-3-Year-Old-Preschool-Educational-Recognition/dp/B094D42LRN/ref=zg_bs_g_toys_d_sccl_16/704-8082870-7454627?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71Bmvb0E+wL._AC_UL300_SR300,200_.jpg",
+      "product_type": "branded",
+      "url": "https://www.amazon.sa/-/en/Neelabil-Plasticine-Education-Multi-color-Interactive/dp/B0C7R8PY6F/ref=zg_bs_g_toys_d_sccl_14/704-8082870-7454627?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61kbZ2PkhaL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 14.5,
+      "avg_rank": 14.2,
       "latest_price": null
     },
     {
@@ -1222,6 +1157,32 @@
       "days_seen": 4,
       "days_tracked": 7,
       "avg_rank": 15.5,
+      "latest_price": null
+    },
+    {
+      "title": "Montessori Toys for 1 to 3-Year-Old Boys Girls Toddlers, Wooden Sorting & Stacking Toys for Toddlers and Kids Preschool, Educational Toys, Color Recognition Stacker Shape Sorter, Learning Puzzles Gift",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Montessori-3-Year-Old-Preschool-Educational-Recognition/dp/B094D42LRN/ref=zg_bs_g_toys_d_sccl_16/704-8082870-7454627?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71Bmvb0E+wL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 15.8,
+      "latest_price": null
+    },
+    {
+      "title": "3 Pcs Kids Astronaut Space Suit Costume Cosplay Jumpsuit Gloves Hat 4-12 Years",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Astronaut-Costume-Cosplay-Jumpsuit-105-115CM/dp/B0CZ7CYWGQ/ref=zg_bs_g_toys_d_sccl_30/704-8082870-7454627?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61AFdzebaXL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 16.0,
       "latest_price": null
     },
     {
@@ -1251,19 +1212,6 @@
       "latest_price": null
     },
     {
-      "title": "3 Pcs Kids Astronaut Space Suit Costume Cosplay Jumpsuit Gloves Hat 4-12 Years",
-      "source": "amazon.sa",
-      "category": "All / Toys",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Astronaut-Costume-Cosplay-Jumpsuit-105-115CM/dp/B0CZ7CYWGQ/ref=zg_bs_g_toys_d_sccl_30/704-8082870-7454627?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61AFdzebaXL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 4,
-      "days_tracked": 7,
-      "avg_rank": 18.2,
-      "latest_price": null
-    },
-    {
       "title": "Squishy Toys Nice Cube Fidget Kids Toys for Boys Girls Squishies Balls,Crunchy Coconut Oil Squishy Nice Berg Sensory Games Toy Ball Cubes,Anxiety Stress Relief Squeeze Squishies for Adults (blue1)",
       "source": "amazon.sa",
       "category": "All / Toys",
@@ -1274,6 +1222,19 @@
       "days_seen": 4,
       "days_tracked": 7,
       "avg_rank": 18.8,
+      "latest_price": null
+    },
+    {
+      "title": "KUANGO Black and White High Contrast Tummy Time Mirror Toys Newborn Toys 0 6 Months Brain Development Infant Stimulating Sensory Baby Mirror Flash Card Book 0-3 3-6 Months Old Baby Boy Girl Gifts",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/KUANGO-Contrast-Newborn-Development-Stimulating/dp/B0FQBVGWKF/ref=zg_bs_g_toys_d_sccl_22/704-6652704-4415468?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71Zb3EzoGtL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 20.5,
       "latest_price": null
     },
     {
@@ -1290,6 +1251,45 @@
       "latest_price": null
     },
     {
+      "title": "SLEEPHEAD® Dumpling Squishy， Slow Rising Stress Relief Toy， Bun Squishy Fidget Toy Kids & Adults",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/SLEEPHEAD%C2%AE-Dumpling-Squishy%EF%BC%8C-Rising-Squishy/dp/B0H5W2N2WP/ref=zg_bs_g_toys_d_sccl_20/704-6652704-4415468?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71cWEWBqbtL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 23.0,
+      "latest_price": null
+    },
+    {
+      "title": "Play-Doh Back to School 5 Pack",
+      "source": "amazon.sa",
+      "category": "All / Toys",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Play-Doh-Back-School-5-Pack/dp/B0DNFRNVZM/ref=zg_bs_g_toys_d_sccl_27/704-8082870-7454627?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61edSjF5czL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 23.8,
+      "latest_price": null
+    },
+    {
+      "title": "Pantene Pro-V Daily Care 2-in-1 Shampoo for Clean Hair, 1L",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Pantene-Pro-V-Daily-Shampoo-Clean/dp/B07MTX2HV4/ref=zg_bs_g_beauty_d_sccl_26/702-3792365-5419144?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61bRP0-BHFL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 24.2,
+      "latest_price": null
+    },
+    {
       "title": "Dabur Herbolene Aloe Vera Petroleum Jelly (425 + 115 ml Free) | Enriched with Aloe Vera and Vitamin E | For Dry and Rough Skin or Chapped Lips | Value Pack",
       "source": "amazon.sa",
       "category": "All / Beauty",
@@ -1303,6 +1303,19 @@
       "latest_price": null
     },
     {
+      "title": "Johnson's Body Wash Vita-Rich, 250ml, Replenishing Raspberry Extract, Enriched with the goodness of wild berries, raspberry extract and moisturizing glycerin",
+      "source": "amazon.sa",
+      "category": "All / Beauty",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Vita-Rich-Replenishing-Raspberry-raspberry-moisturizing/dp/B07G2QZ945/ref=zg_bs_g_beauty_d_sccl_27/702-8157832-5784963?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71aZCibVLOL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 4,
+      "days_tracked": 7,
+      "avg_rank": 24.5,
+      "latest_price": 13.27
+    },
+    {
       "title": "341",
       "source": "amazon.sa",
       "category": "All / Grocery",
@@ -1312,20 +1325,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/713xJZLY0EL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 25.0,
-      "latest_price": null
-    },
-    {
-      "title": "Play-Doh Back to School 5 Pack",
-      "source": "amazon.sa",
-      "category": "All / Toys",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Play-Doh-Back-School-5-Pack/dp/B0DNFRNVZM/ref=zg_bs_g_toys_d_sccl_27/704-8082870-7454627?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61edSjF5czL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 4,
-      "days_tracked": 7,
-      "avg_rank": 25.0,
+      "avg_rank": 25.2,
       "latest_price": null
     },
     {
@@ -1338,21 +1338,21 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71Rw+8-8-jL._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 27.0,
+      "avg_rank": 27.2,
       "latest_price": null
     },
     {
-      "title": "Lusine White Sandwich Roll, 4 x 50 g",
+      "title": "YLL Karaoke Machine for Kids Adults, Portable Mini Bluetooth Speaker with Wireless Microphone, Most Popular Birthday Gifts Toys for Girls 3, 4, 5, 6, 7, 8, 9, 10, 11, 12+Year Old (lightpink)",
       "source": "amazon.sa",
-      "category": "All / Grocery",
+      "category": "All / Toys",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Lusine-White-Sandwich-Roll-50/dp/B089MCFHL8/ref=zg_bs_g_grocery_d_sccl_24/704-0656789-2142527?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61vxZ1NVC1L._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/YLL-Portable-Bluetooth-Microphone-lightpink/dp/B09XV7SYN2/ref=zg_bs_g_toys_d_sccl_24/704-6652704-4415468?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81lnrWWei4L._AC_UL300_SR300,200_.jpg",
       "days_seen": 4,
       "days_tracked": 7,
-      "avg_rank": 28.2,
-      "latest_price": 13.99
+      "avg_rank": 28.0,
+      "latest_price": null
     },
     {
       "title": "Amazon Basics AA 1.5 Volt Performance Alkaline Batteries, 20-Pack (Appearance may vary)",
@@ -1390,7 +1390,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51TYFMcun5L._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 7.0,
+      "avg_rank": 7.3,
       "latest_price": null
     },
     {
@@ -1416,7 +1416,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71ctHWiOxDL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 11.7,
+      "avg_rank": 11.3,
       "latest_price": null
     },
     {
@@ -1455,7 +1455,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71oGBORlcVL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 14.0,
+      "avg_rank": 13.7,
       "latest_price": null
     },
     {
@@ -1481,7 +1481,7 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61XsEompAIL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 17.0,
+      "avg_rank": 16.7,
       "latest_price": null
     },
     {
@@ -1511,16 +1511,16 @@
       "latest_price": null
     },
     {
-      "title": "SLEEPHEAD® Dumpling Squishy， Slow Rising Stress Relief Toy， Bun Squishy Fidget Toy Kids & Adults",
+      "title": "400 Pcs Pipe Cleaners Craft,4 Assorted Colors Pipe Cleaners Bulk, Chenille Stems for DIY Flower Making Kit with Floral Wires, Gardening Tape,Stamen& Ribbon (Pink)",
       "source": "amazon.sa",
       "category": "All / Toys",
       "brand": null,
       "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/SLEEPHEAD%C2%AE-Dumpling-Squishy%EF%BC%8C-Rising-Squishy/dp/B0H5W2N2WP/ref=zg_bs_g_toys_d_sccl_20/704-6652704-4415468?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71cWEWBqbtL._AC_UL300_SR300,200_.jpg",
+      "url": "https://www.amazon.sa/-/en/Cleaners-Assorted-Colors-Chenille-Gardening/dp/B0DYV2J382/ref=zg_bs_g_toys_d_sccl_20/703-4185640-0753364?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81vQisPVDQL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 22.3,
+      "avg_rank": 21.0,
       "latest_price": null
     },
     {
@@ -1537,6 +1537,32 @@
       "latest_price": null
     },
     {
+      "title": "321",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Al-Gharbia-Large-Premium-Eggs-Count/dp/B0DZDZ8K3S/ref=zg_bs_g_grocery_d_sccl_18/702-5804699-6718657?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51l8gZaKbLL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 3,
+      "days_tracked": 7,
+      "avg_rank": 23.3,
+      "latest_price": null
+    },
+    {
+      "title": "HyperX Cloud III S – Wireless Gaming Headset for Multi-Platform, 2.4GHz, Battery Life up to 120 Hours / 200 Hours Bluetooth, 53mm Angled Drivers, 10mm Detachable Mic, Black-Red",
+      "source": "amazon.sa",
+      "category": "All / Electronics",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/HyperX-Cloud-III-Multi-Platform-Detachable/dp/B0F6NYQTJP/ref=zg_bs_g_electronics_d_sccl_23/702-1982677-4296644?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71OG0eQcj8L._AC_UL300_SR300,200_.jpg",
+      "days_seen": 3,
+      "days_tracked": 7,
+      "avg_rank": 26.0,
+      "latest_price": null
+    },
+    {
       "title": "480",
       "source": "amazon.sa",
       "category": "All / Grocery",
@@ -1546,20 +1572,33 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71YMZI9CgqL._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 25.7,
+      "avg_rank": 27.0,
       "latest_price": null
     },
     {
-      "title": "Gillette Simple VenUS Shaver 3 Pink Bag 8 + 4 Bead",
+      "title": "Lusine White Sandwich Roll, 4 x 50 g",
       "source": "amazon.sa",
-      "category": "All / Beauty",
+      "category": "All / Grocery",
       "brand": null,
-      "product_type": "branded",
-      "url": "https://www.amazon.sa/-/en/Gillette-Simple-VenUS-Shaver-Pink/dp/B01ED2X73C/ref=zg_bs_g_beauty_d_sccl_28/704-5077250-7049949?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61EwLXoIcYL._AC_UL300_SR300,200_.jpg",
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Lusine-White-Sandwich-Roll-50/dp/B089MCFHL8/ref=zg_bs_g_grocery_d_sccl_24/704-0656789-2142527?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61vxZ1NVC1L._AC_UL300_SR300,200_.jpg",
       "days_seen": 3,
       "days_tracked": 7,
-      "avg_rank": 28.0,
+      "avg_rank": 27.7,
+      "latest_price": 13.99
+    },
+    {
+      "title": "Snickers Miniatures Original Chocolate 150 g, Chocolate Bag, Milk with Roasted Peanuts, Nougat and Caramel",
+      "source": "amazon.sa",
+      "category": "All / Grocery",
+      "brand": null,
+      "product_type": "non-branded",
+      "url": "https://www.amazon.sa/-/en/Snickers-Miniatures-Original-Chocolate-Roasted/dp/B004KSIY6K/ref=zg_bs_g_grocery_d_sccl_30/701-0484336-9000313?psc=1",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71cbCJnOaqL._AC_UL300_SR300,200_.jpg",
+      "days_seen": 3,
+      "days_tracked": 7,
+      "avg_rank": 27.7,
       "latest_price": null
     },
     {
@@ -1587,32 +1626,6 @@
       "days_tracked": 7,
       "avg_rank": 28.3,
       "latest_price": null
-    },
-    {
-      "title": "Snickers Miniatures Original Chocolate 150 g, Chocolate Bag, Milk with Roasted Peanuts, Nougat and Caramel",
-      "source": "amazon.sa",
-      "category": "All / Grocery",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/Snickers-Miniatures-Original-Chocolate-Roasted/dp/B004KSIY6K/ref=zg_bs_g_grocery_d_sccl_30/701-0484336-9000313?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71cbCJnOaqL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 3,
-      "days_tracked": 7,
-      "avg_rank": 28.3,
-      "latest_price": null
-    },
-    {
-      "title": "FORCEX Signature Gray Gaming Mousepad – 4 mm thickness - Waterproof, Large Extended, Non-Slip, Precision Surface, Durable Design for Gamers (XX-Large (90 * 40 cm))",
-      "source": "amazon.sa",
-      "category": "All / Electronics",
-      "brand": null,
-      "product_type": "non-branded",
-      "url": "https://www.amazon.sa/-/en/FORCEX-Signature-Gray-Gaming-Mousepad/dp/B0FR9KDHC4/ref=zg_bs_g_electronics_d_sccl_30/703-9266742-4451644?psc=1",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61oH5WiYGLL._AC_UL300_SR300,200_.jpg",
-      "days_seen": 3,
-      "days_tracked": 7,
-      "avg_rank": 30.0,
-      "latest_price": 99.0
     }
   ]
 }
